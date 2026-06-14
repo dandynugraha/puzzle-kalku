@@ -1,0 +1,3307 @@
+=== Slide Kuliah ke-10 MAT2112 Kalkulus I - Edisi 2026 (1).pdf === (21 halaman)
+--- Halaman 1 ---
+TERAPAN TURUNAN (2)
+Kuliah Ke-10
+MAT2112 Kalkulus I
+Program Studi Matematika SSMI IPB
+Edisi 2026
+
+--- Halaman 2 ---
+Topik Bahasan
+Kecekungan Fungsi
+Asimtot
+Sketsa Kurva 
+2
+Daerah asal, daerah hasil, titik potong dengan sumbu koordinat, 
+naik/turun, nilai ekstrem lokal, cekung, titik belok, asimtot (datar, 
+tegak, miring), simetri (fungsi genap/ganjil)
+
+--- Halaman 3 ---
+Kecekungan Fungsi  
+3
+Definisi
+Fungsi 𝑓 dikatakan:
+▪cekung ke atas pada interval 𝐼 jika grafik 𝑓 terletak di atas 
+garis singgung pada interval 𝐼,
+▪cekung ke bawah pada interval 𝐼 jika grafik 𝑓 terletak di 
+bawah garis singgung pada interval 𝐼.
+Dengan perkataan lain:
+❖𝑓 cekung ke atas pada interval 
+terbuka 𝐼 jika 𝑓′ naik pada 𝐼,
+❖𝑓 cekung ke bawah pada 
+interval terbuka 𝐼 jika 𝑓′ turun 
+pada 𝐼.
+
+--- Halaman 4 ---
+Memeriksa Kecekungan & Definisi Titik Belok
+4
+
+--- Halaman 5 ---
+5
+Contoh 1
+Diberikan fungsi 𝑓 dengan 𝑓𝑥= 𝑥4 −4𝑥3 + 10. 
+ Tentukan 
+ a) interval kecekungan fungsi 𝑓,
+ b) titik belok fungsi 𝑓.
+
+--- Halaman 6 ---
+6
+Contoh 2
+Diberikan grafik dari 𝑦= 𝑓′ 𝑥 seperti berikut:
+Tentukan:
+a) interval sehingga fungsi 𝑓 naik/turun,
+b) titik stasioner dan nilai ekstrem lokal 𝑓,
+c) interval sehingga fungsi 𝑓 cekung ke 
+atas/bawah,
+d) titik belok fungsi 𝑓.
+
+--- Halaman 7 ---
+Asimtot
+7
+Asimtot Tegak
+Asimtot Datar
+Asimtot Miring
+
+--- Halaman 8 ---
+Asimtot Tegak
+Definisi
+Garis 𝑥 =  𝑎 disebut 
+asimtot tegak bagi 
+kurva 𝑦 =  𝑓 (𝑥) jika
+lim
+𝑥→𝑎± 𝑓(𝑥) = ±∞.
+
+--- Halaman 9 ---
+9
+Asimtot Datar
+Definisi
+Garis 𝑦= 𝐿 disebut 
+asimtot datar bagi 
+kurva 𝑦= 𝑓 (𝑥) jika
+lim
+𝑥→±∞𝑓(𝑥) = 𝐿.
+Teorema
+Jika 𝑟> 0 adalah bilangan rasional, maka
+lim
+𝑥→±∞
+1
+𝑥𝑟= 0
+asalkan 𝑥𝑟 terdefinisi.
+Teorema berikut 
+sangat membantu 
+untuk menentukan 
+asimtot datar.
+
+--- Halaman 10 ---
+Asimtot Miring
+Definisi
+Garis 𝑦= 𝑚𝑥+ 𝑏 disebut 
+asimtot miring bagi kurva 
+𝑦= 𝑓(𝑥) jika
+lim
+𝑥→±∞[𝑓𝑥−𝑚𝑥+ 𝑏] = 0.
+Catatan
+Dalam kasus 𝑚= 0, maka 
+persamaan garis 
+asimtotnya menjadi 𝑦= 𝑏 
+yang merupakan 
+persamaan garis asimtot 
+datar. 
+lim
+𝑥→∞[𝑓𝑥−𝑚𝑥+ 𝑏] = 0, 
+dengan 𝑚> 0
+Ilustrasi
+Contoh
+lim
+𝑥→±∞
+2𝑥2 −4𝑥
+𝑥+ 1
+−2𝑥−6
+= 0.
+2𝑥2 −4𝑥
+𝑥+ 1
+= 𝟐𝒙−𝟔+
+6
+𝑥+ 1
+Asimtot 
+miring
+𝑦= 2𝑥−6 asimtot miring
+
+--- Halaman 11 ---
+11
+Asimtot Fungsi Rasional
+Diberikan fungsi rasional
+𝑟𝑥= 𝑝1(𝑥)
+𝑝2(𝑥) =
+𝑐𝑛𝑥𝑛+ 𝑐𝑛−1𝑥𝑛−1 + ⋯+ 𝑐0
+𝑘𝑚𝑥𝑚+ 𝑘𝑚−1𝑥𝑚−1 + ⋯+ 𝑘0
+1. Garis 𝑥= 𝑎dengan 𝑝2 𝑎= 0 dan 
+𝑝1 𝑎≠0 merupakan asimtot tegak.
+2. Kasus 𝑛< 𝑚 → garis 𝑦 =  0 (sumbu-𝑥) 
+merupakan asimtot datar.
+3. Kasus 𝑛= 𝑚 → garis 𝑦= 𝑐𝑛/𝑘𝑚 
+merupakan asimtot datar.
+4. Kasus 𝑛= 𝑚+ 1 →𝑟𝑥= 𝑚𝑥+ 𝑏+ sisa. 
+Garis 𝑦= 𝑚𝑥+ 𝑏merupakan asimtot 
+miring.
+Jika ada, tentukan semua 
+asimtot fungsi-fungsi rasional 
+berikut.
+a) 𝑓𝑥=
+2𝑥+5
+3𝑥−3
+b) 𝑔𝑥=
+4𝑥3−2𝑥2+12𝑥+7
+𝑥(𝑥−2)
+c) ℎ𝑥=
+2𝑥
+𝑥2+1
+d) 𝑘𝑥=
+5𝑥5+5
+𝑥2+4
+Contoh 3
+
+--- Halaman 12 ---
+12
+Cara lain Menentukan 
+Asimtot Miring/Datar
+Garis asimtot miring/datar 
+𝑦= 𝑚𝑥+ 𝑏 dari fungsi kontinu 𝑓 
+dapat pula ditentukan dengan 
+cara berikut.
+1.   𝑚=
+lim
+𝑥→ ±∞
+𝑓(𝑥)
+𝑥
+2.  𝑏=
+lim
+𝑥→ ±∞𝑓𝑥−𝑚𝑥.
+Contoh 4
+Diketahui garis 𝑦= 𝑚𝑥+ 𝑏 
+merupakan garis asimtot untuk 
+fungsi 𝑓 dengan 
+𝑓𝑥= 2𝑥3/2 + 2𝑥−3
+𝑥+ 1
+.
+Tentukan
+a) nilai 𝑚,
+b) nilai 𝑏,
+c) apakah garis asimtot 
+tersebut merupakan asimtot 
+miring ataukah asimtot 
+datar untuk fungsi 𝑓.
+
+--- Halaman 13 ---
+13
+Catatan
+▪Nilai limit fungsi di +∞ bisa jadi berbeda dengan nilai limit 
+fungsi di −∞.
+▪Akibatnya, bisa saja suatu fungsi memiliki dua garis asimtot 
+datar atau dua garis asimtot miring yang berbeda.
+-4
+-2
+2
+4
+5
+x
+y
+-4
+-2
+2
+4
+-1.0
+-0.5
+0.5
+1.0
+x
+y
+dua asimtot miring
+dua asimtot datar
+Contoh 5
+Tentukan dua garis 
+asimtot datar untuk
+𝑓𝑥=
+2𝑥
+𝑥2 + 3
+
+--- Halaman 14 ---
+Sketsa Kurva
+14
+Langkah-langkah sketsa kurva fungsi 𝑦= 𝑓𝑥.
+1. Identifikasi daerah asal fungsi (𝐷𝑓), titik potong sumbu, dan 
+kesimetrian fungsi.
+2. Identifikasi asimtot fungsi.
+3. Tentukan 𝑓′ 𝑥.
+▪
+Identifikasi bilangan kritis.
+▪
+Identifikasi interval fungsi naik turun, ekstrem lokal.
+4. Tentukan 𝑓′′ 𝑥.
+▪
+Identifikasi interval kecekungan fungsi, titik belok.
+5. Gambar sketsa kurva 𝑓.
+(Akan sangat membantu bila garis-garis asimtot, titik-titik 
+ekstrem, dan titik-titik potong dengan sumbu koordinat 
+dipetakan terlebih dahulu)
+
+--- Halaman 15 ---
+15
+Langkah-langkah menentukan sketsa kurva (grafik) fungsi:
+𝑦= 𝑓(𝑥) =
+2𝑥3
+𝑥2 −1
+Contoh 6: Sketsa Kurva
+▪Asimtot:
+    (i) lim
+𝑥→1+ 𝑓𝑥= + ∞ atau lim
+𝑥→1−𝑓𝑥= −∞,   maka garis 𝑥= 1 
+merupakan garis asimtot tegak.
+▪𝐷𝑓= {𝑥|𝑥≠−1 dan 𝑥≠1} 
+▪Titik potong dengan sumbu koordinat:
+     𝑥= 0 →𝑦= 0
+     𝑦= 0 →2𝑥3 = 0 →𝑥= 0
+Titik potong: 
+(0,0)
+lim
+𝑥→−1+ 𝑓𝑥= + ∞ atau lim
+𝑥→−1−𝑓𝑥= −∞,   garis 𝑥= −1 
+merupakan garis asimtot tegak.
+(ii) 𝑓 tidak memiliki asimtot datar.
+
+--- Halaman 16 ---
+16
+Contoh 6: Sketsa Kurva (Lanjutan)
+𝑓′ 𝑥= 2𝑥2(𝑥2 −3)
+𝑥2 −1 2
+▪Turunan pertama: 
+(iii) Fungsi 𝑓 dapat ditulis sebagai: 𝑓𝑥= 2𝑥+
+2𝑥
+𝑥2−1
+Titik kritis fungsi 𝑓: 𝑥= 0, 𝑥=
+3, 𝑥= −3 
+Uji Turunan I pada interval −∞, −1 , −1,1 , (1, ∞) menghasilkan:
+lim
+𝑥→∞[𝑓𝑥−2𝑥] = lim
+𝑥→∞
+2𝑥
+𝑥2−1 = lim
+𝑥→∞
+2
+𝑥
+1−1
+𝑥2
+= 0
+Garis 𝑦= 2𝑥 adalah garis asimtot miring.
+−1
+−3
+𝑓′(𝑥)
++
+0
+1
++
+−
+−
+3
+−
+−
+
+--- Halaman 17 ---
+17
+Contoh 6: Sketsa Kurva (Lanjutan)
+Fungsi 𝑓 naik pada selang −∞, −3 ,
+3, ∞
+Fungsi 𝑓 turun pada selang −3, −1 , −1,0 , 0,1 , 1,
+3
+Nilai maksimum lokal: 𝑓−3 = −3 3
+Nilai minimum lokal: 𝑓
+3 = 3 3 
+▪Turunan kedua:
+𝑓′′ 𝑥= 4𝑥(𝑥2 + 3)
+𝑥2 −1 3
+Titik kritis (stasioner) 𝑓′ terjadi bila 𝑓′′ 𝑥= 0 →𝑥= 0.
+Uji Turunan II pada interval −∞, −1 , −1,1 , (1, ∞) menghasilkan:
+
+--- Halaman 18 ---
+18
+Contoh 6: Sketsa Kurva (Lanjutan)
+Fungsi 𝑓 cekung ke bawah pada selang −∞, −1 , 0,1 ,
+fungsi 𝑓 cekung ke atas pada selang −1,0 , 1, ∞.
+Titik belok: 0, 𝑓0
+= (0,0).
+-5
+-4
+-3
+-2
+-1
+1
+2
+3
+4
+5
+-10
+-5
+5
+10
+x
+y
+maks 
+lokal
+min 
+lokal
+titik 
+belok
+asimtot 
+miring
+asimtot 
+tegak
+asimtot 
+tegak
+▪Sketsa grafik 𝑓
+▪Ringkasan:
+
+--- Halaman 19 ---
+19
+Contoh 7
+Diberikan fungsi 𝑓 dengan 𝑓𝑥=
+2 𝑥2−9
+𝑥2−4 .
+Tentukan (jika ada):
+a) daerah asal fungsi 𝑓,
+b) titik-titik potong kurva fungsi 𝑓 dengan sumbu koordinat, 
+c) garis asimtot (tegak, datar, miring),
+d) selang di mana fungsi 𝑓 naik/turun beserta nilai ekstrem lokal,
+e) selang di mana fungsi 𝑓 cekung ke atas/ke bawah beserta 
+titik belok,
+f) sketsa grafik fungsi 𝑓.
+
+--- Halaman 20 ---
+20
+Contoh 7: Sketsa Kurva
+asimtot 
+tegak
+asimtot 
+tegak
+asimtot 
+datar
+min lokal
+
+--- Halaman 21 ---
+Selamat Belajar
+21
+
+
+=== Slide Kuliah ke-11 MAT2112 Kalkulus I - Edisi 2026 (1).pdf === (22 halaman)
+--- Halaman 1 ---
+MAT2112 KALKULUS I
+PROGRAM STUDI MATEMATIKA SSMI IPB - 2026
+PENGOPTIMUMAN, 
+ANTITURUNAN 
+
+--- Halaman 2 ---
+Sub-CPMK
+1. Mampu menyelesaikan masalah pengoptimuman.
+2. Mampu menentukan antiturunan.
+2
+
+--- Halaman 3 ---
+Dari teori dan teknik ke aplikasi
+PENGANTAR
+Aplikasi nilai ekstrem global 
+dalam kehidupan nyata
+PENGOPTIMUMAN
+Proses kebalikan dari turunan
+ANTITURUNAN
+1
+2
+3
+TOPIK BAHASAN
+Terapan Nilai Ekstrem 
+dan Antiturunan
+
+--- Halaman 4 ---
+PENGANTAR
+Dari teori dan teknik ke aplikasi
+
+--- Halaman 5 ---
+“There is no branch of 
+mathematics, however abstract, 
+which may not some day be applied 
+to phenomena of the real world.”
+Nikolai Lobachevski
+Russian mathematician, 1792 - 1856
+5
+https://journal.ipb.ac.id/index.php/jmap/article/view/61221
+
+--- Halaman 6 ---
+Pengantar ke Pengoptimuman
+Masalah nyata dalam model 
+verbal
+Formulasi ke dalam model 
+pengoptimuman
+Aplikasi ekstrem global fungsi
+6
+
+--- Halaman 7 ---
+PENGOPTIMUMAN
+Penerapan ekstrem global 
+fungsi dalam kehidupan 
+nyata
+
+--- Halaman 8 ---
+Strategi Umum Pengoptimuman
+Formulasi Model Pengoptimuman
+•Buat gambar permasalahan (jika 
+diperlukan), tetapkan variabel, catat 
+satuan.
+•Tulis formula bagi fungsi tujuan 
+(objective function) 𝑓yang akan 
+dimaksimumkan (diminimumkan).
+•Nyatakan fungsi tujuan 𝑓yang  
+bergantung pada satu variabel bebas, 
+𝑓(𝑥), dengan memanfaatkan informasi 
+(kendala/constraint) lain yang ada.
+𝐶𝑥= 500
+𝑥
++ 2𝑥
+𝐶
+𝑥
+8
+
+--- Halaman 9 ---
+Strategi Umum Pengoptimuman
+Aplikasi Ekstrem Global
+•Tentukan daerah fungsi, bilangan kritis 
+(titik ujung, titik stasioner, titik singular).
+•Tentukan ekstrem global (gunakan 
+metode selang tutup atau uji turunan I/II).
+•Periksa bahwa jawaban telah sesuai 
+dengan nilai yang diminta: absis 𝑥
+(bilangan kritis), ordinat 𝑦(nilai ekstrem),  
+koordinat (𝑥, 𝑦) seperti titik belok.
+9
+
+--- Halaman 10 ---
+Uji Turunan I, II bagi Ekstrem Global
+Dalam hal 
+• fungsi kontinu 𝑓 hanya 
+memiliki satu bilangan 
+kritis 𝑐, jenis stasioner 
+atau singular,  maka 
+• dengan Uji Turunan I/II 
+dapat disimpulkan 
+bahwa 𝑓(𝑐) merupakan 
+nilai ekstrem global 
+(mutlak).
+10
+•
+𝑐
+𝑓(𝑐) maks global
+𝑓′ > 0 
+ 𝑓 naik
+𝑓′ < 0 
+     𝑓 turun
+•
+𝑐
+𝑓(𝑐) min global
+𝑓′ < 0 
+   𝑓 turun
+𝑓′ > 0 
+𝑓 naik
+•
+𝑐
+𝑓(𝑐) maks global
+𝑓′′ < 0
+𝑓 cekung
+bawah
+𝑓′′ < 0 
+          𝑓 cekung
+             bawah
+•
+𝑐
+𝑓(𝑐) min global
+𝑓′′ > 0
+      𝑓 cekung
+         atas
+𝑓′′ > 0
+   𝑓 cekung
+      atas
+Uji Turunan I
+Uji Turunan II
+Fakta berikut memudahkan penentuan ekstrem global
+
+--- Halaman 11 ---
+Contoh 1: Desain Kotak Terbuka
+Daerah Fungsi: Selang Tutup
+Sebuah kotak terbuka akan dibuat dari selembar karton dengan 
+panjang sisi masing-masing 12 cm, dengan cara memotong persegi kecil 
+pada keempat sudutnya, lalu menekuk sisi-sisinya. Seberapa besar 
+persegi yang harus dipotong dari sudut agar kotak memiliki kapasitas 
+tampung sebesar mungkin?  Tentukan ukuran kotak yang dihasilkan.
+11
+
+--- Halaman 12 ---
+Langkah Solusi Desain Kotak Terbuka (1)
+• Langkah 1. Tetapkan variabel
+• Tujuan: memaksimumkan volume kotak, 𝑉, 
+dengan memotong 𝑥 cm dari sudut karton (lihat 
+gambar). 
+• Langkah 2. Buat fungsi tujuan dan daerah 
+fungsi
+• Volume karton
+𝑉𝑥= ⋯⋯⋯, dengan ⋯≤𝑥≤⋯
+• Perhatikan bahwa 𝑉 sudah merupakan fungsi 
+yang bergantung pada satu variabel bebas 𝑥.
+12
+
+--- Halaman 13 ---
+Langkah Solusi Desain Kotak Terbuka (2)
+• Langkah 3. Tentukan maksimum global
+• 𝑉′ 𝑥= ⋯⋯
+• Bilangan kritis
+• Titik stasioner dan titik ujung
+• Maksimum global
+• Cara 1: metode selang tutup
+• Cara 2: uji turunan I
+• Cara 3: uji turunan II
+• Kesimpulan →⋯
+13
+
+--- Halaman 14 ---
+Langkah Solusi Desain Kotak Terbuka (3)
+• Kesimpulan
+• Grafik 𝑉𝑥→
+∴ Bagian yang dipotong: 2 cm. 
+Dimensi kotak: alas: 8 × 8 cm2, 
+tinggi 2 cm.
+14
+𝑉(𝑥) = ⋯
+Volume
+•
+mi
+n
+min
+min
+max
+…
+⋯
+
+--- Halaman 15 ---
+Contoh 2: Desain Kaleng Minuman
+Daerah Fungsi: Selang Buka
+Perusahaan minuman soda "Roso-Roso" sedang 
+merancang kaleng minuman dengan volume 108𝜋 
+cm3≈340 ml. Jika harga bahan permukaan atas dan 
+bawah dua kali harga bahan permukaan samping, 
+tentukan ukuran kaleng agar menghabiskan biaya 
+bahan sesedikit mungkin.
+(Kunci Jawaban: 𝑟= 3 cm, ℎ= 12 cm)
+15
+
+--- Halaman 16 ---
+Contoh 3: Desain Jalan Raya
+Aneka Lokasi Ekstrem Global
+Sebuah perusahaan kontraktor jalan raya diminta untuk membangun jalan yang 
+menghubungkan kota kecil - Kota Asri (A) dan pusat kota - Kota Besar (B). Kota Besar 
+terletak di jalan lama yang membentang dari arah barat-timur. Kota Asri terletak 10 km 
+sebelah utara dari titik (O) jalan lama yaitu 40 km sebelah barat Kota Besar. Tentukan 
+lokasi penghubung C di sepanjang jalan lama yang memungkinkan para pengguna 
+mencapai pusat kota melalui rute A-C-B dalam waktu secepatnya dengan ketentuan:
+a)
+kecepatan maksimum di jalan baru dibatasi 80 km/jam, sedangkan kecepatan 
+maksimum di jalan lama 100 km/jam,
+(Petunjuk: satu titik stasioner, lokasi C 40/3 km dari O, di antara O - B)
+b)
+kecepatan maksimum di jalan baru dibatasi 100 km/jam, sedangkan kecepatan 
+maksimum di jalan lama 80 km/jam.
+(Petunjuk: tanpa titik stasioner, lokasi C di kota Besar)
+16
+
+--- Halaman 17 ---
+ANTITURUNAN
+Proses kebalikan dari turunan
+
+--- Halaman 18 ---
+Pengantar ke Antiturunan
+18
+• Proses kebalikan dari turunan
+• Elemen penting dalam 
+temuan Teorema Dasar 
+Kalkulus, integral dan 
+penerapannya (topik 
+selanjutnya)
+Turunan
+Antiturunan
+𝑥2
+2𝑥
+turunan
+antiturunan
+
+--- Halaman 19 ---
+Antiturunan
+19
+Definisi
+Fungsi 𝐹 disebut antiturunan 
+dari fungsi 𝑓 pada selang 𝐼 jika
+𝐹′ 𝑥= 𝑓𝑥
+untuk setiap 𝑥∈𝐼.
+Contoh
+• 𝑓𝑥= 𝑥3 ⇒𝐹(𝑥) =
+1
+4 𝑥4
+• 𝑓𝑥= 𝑥3 ⇒𝐹(𝑥) =
+1
+4 𝑥4 + 5
+• 𝑓𝑥= cos 𝑥⇒𝐹(𝑥) = sin 𝑥
+• 𝑓𝑥= cos 𝑥⇒𝐹𝑥= sin 𝑥+ 𝐶, 
+ 𝐶= konstanta
+
+--- Halaman 20 ---
+Antiturunan Umum
+20
+Teorema Antiturunan Umum
+Jika 𝐹 antiturunan dari 𝑓 pada 
+selang 𝐼, maka antiturunan dari 𝑓 
+yang paling umum adalah
+𝐹(𝑥) + 𝐶
+dengan 𝐶 konstanta sebarang.
+Antiturunan berperan sentral 
+dalam temuan Teorema Dasar 
+Kalkulus oleh Newton & Leibniz ⇒ 
+merupakan landasan bagi kalkulus 
+integral.
+
+--- Halaman 21 ---
+Formula Umum Antiturunan
+21
+No
+Fungsi
+Antiturunan
+1
+𝑘𝑓(𝑥)
+𝑘 𝐹𝑥+ 𝐶
+2
+𝑓𝑥± 𝑔(𝑥)
+𝐹𝑥± 𝐺𝑥+ 𝐶
+3
+𝑥𝑛, 𝑛≠−1
+𝑥𝑛+1/(𝑛+ 1) +𝐶
+4
+sin 𝑥
+−cos 𝑥+ 𝐶
+5
+cos 𝑥
+sin 𝑥+ 𝐶
+6
+sec2 𝑥
+tan 𝑥+ 𝐶
+7
+csc2 𝑥
+−cot 𝑥+ 𝐶
+8
+sec 𝑥tan 𝑥
+sec 𝑥+ 𝐶
+9
+csc 𝑥cot 𝑥
+−csc 𝑥+ 𝐶
+𝑘, 𝐶: konstanta, 
+ 𝐹′ 𝑥= 𝑓𝑥, 𝐺′ 𝑥= 𝑔(𝑥)
+
+--- Halaman 22 ---
+Contoh Antiturunan
+Tentukan rumus bagi fungsi 𝑓 jika 
+ 𝑓′ 𝑥= 6𝑥2 −4𝑥+ 2
+dan 𝑓1 = 3
+22
+Contoh 4
+Tentukan rumus bagi fungsi 𝑓 jika 
+ 𝑓′′ 𝑥= 12𝑥2 + 6𝑥−4,
+ 𝑓0 = 4, dan 𝑓1 = 1
+Contoh 5
+
+
+=== Slide Kuliah ke-12 MAT2112 Kalkulus I - Edisi 2026.pdf === (32 halaman)
+--- Halaman 1 ---
+Integral Tentu
+Kuliah ke-12 MAT2112 Kalkulus I
+Program Studi Matematika, SSMI IPB
+
+--- Halaman 2 ---
+Sub Capaian Pembelajaran MK
+Mampu menjelaskan kaitan luas daerah di bawah kurva 
+dengan definisi integral tentu
+Mampu menentukan integral tentu dengan definisi
+Mampu menggunakan sifat-sifat integral tentu
+Mampu menggunakan teorema dasar Kalkulus pertama 
+dan kedua
+
+--- Halaman 3 ---
+Topik Pembahasan
+Luas Daerah di Bawah Kurva
+Integral Tentu
+Sifat-sifat Integral Tentu
+Teorema Dasar Kalkulus
+
+--- Halaman 4 ---
+Luas Daerah 
+di Bawah Kurva 
+
+--- Halaman 5 ---
+Luas Daerah 
+di Bawah Kurva 
+Dua masalah dalam geometri yang 
+melatarbelakangi hal yang paling penting dalam 
+Kalkulus, yaitu:
+• permasalahan garis singgung kurva → turunan
+• permasalahan luas daerah → integral tentu
+
+--- Halaman 6 ---
+Luas Area di Bawah Kurva
+Permasalahan luas area bukanlah permasalahan yang rumit apabila
+daerahnya berupa persegi panjang, segitiga, atau poligon
+Menentukan luas area di bawah kurva yang melengkung 
+tidaklah sederhana.
+
+--- Halaman 7 ---
+Luas Daerah di Bawah Kurva
+Masalah: 
+Bagaimana menentukan 
+luas daerah bidang rata 𝑆 
+yang dibatasi oleh:
+kurva 𝑦= 𝑓 (𝑥) ≥0, 
+sumbu-𝑥, garis 𝑥= 𝑎, dan 
+garis 𝑥= 𝑏?
+
+--- Halaman 8 ---
+Mencari Luas Daerah
+di Bawah Kurva
+• Hampiri daerah 𝑆 dengan 𝑛 
+persegi panjang yang luasnya 
+𝐴1, 𝐴2, …, 𝐴𝑛.
+• Misalkan luas daerah 𝑆 adalah 𝐴 
+dan luas pendekatannya adalah 
+𝑅𝑛, dengan
+𝑅𝑛= 𝐴1 + 𝐴2 + ⋯+ 𝐴𝑛.
+• Semakin besar 𝑛, semakin 
+dekat 𝑅𝑛 ke 𝐴, sehingga dapat 
+dituliskan
+𝐴= lim
+𝑛→∞𝑅𝑛= lim
+𝑛→∞෍
+𝑖=1
+𝑛
+𝐴𝑖
+
+--- Halaman 9 ---
+Penentuan luas daerah bidang rata 𝑆 
+yang dibatasi oleh kurva 𝑦= 𝑓(𝑥) ≥0, 
+sumbu-𝑥, garis 𝑥= 𝑎, dan garis 𝑥= 𝑏:
+• Bagi selang 𝑎, 𝑏 menjadi 𝑛 selang 
+bagian 𝑎= 𝑥0, 𝑥1 , 𝑥1, 𝑥2 , …, 
+𝑥𝑛−1, 𝑥𝑛= 𝑏 dengan panjang yang 
+sama, yakni
+∆𝑥= 𝑏−𝑎
+𝑛
+.
+• Untuk setiap titik di sumbu-𝑥, berlaku 
+𝑥𝑖= 𝑎+ 𝑖∆𝑥, 𝑖= 1, 2, …, 𝑛.
+Penghitungan Luas dengan Pendekatan Persegi Panjang
+
+--- Halaman 10 ---
+• Pada setiap selang bagian
+𝑥𝑖−1, 𝑥𝑖, buat persegi panjang 
+berukuran
+𝑓𝑥𝑖× ∆𝑥
+sehingga luasnya adalah 
+𝐴𝑖= 𝑓(𝑥𝑖) ∆𝑥.
+Penghitungan Luas dengan Pendekatan Persegi Panjang
+𝑅𝑛= ෍
+𝑖=1
+𝑛
+𝐴𝑖= ෍
+𝑖=1
+𝑛
+𝑓(𝑥𝑖)∆𝑥
+
+--- Halaman 11 ---
+Definisi
+𝑅𝑛= ෍
+𝑖=1
+𝑛
+𝑓(𝑥𝑖)∆𝑥
+disebut jumlah Riemann
+
+--- Halaman 12 ---
+Formulasi Notasi Sigma
+෍
+𝑖=1
+𝑛
+𝑐= 𝑐𝑛
+෍
+𝑖=1
+𝑛
+𝑐𝑥𝑖= 𝑐෍
+𝑖=1
+𝑛
+𝑥𝑖
+෍
+𝑖=1
+𝑛
+𝑥𝑖± 𝑦𝑖= ෍
+𝑖=1
+𝑛
+𝑥𝑖± ෍
+𝑖=1
+𝑛
+𝑦𝑖
+1
+2
+3
+4
+෍
+𝑖=1
+𝑛
+𝑖= 𝑛(𝑛+ 1)
+2
+5
+෍
+𝑖=1
+𝑛
+𝑖2 = 𝑛(𝑛+ 1)(2𝑛+ 1)
+6
+6
+෍
+𝑖=1
+𝑛
+𝑖3 =
+𝑛𝑛+ 1
+2
+2
+𝑐= konstanta
+𝑐= konstanta
+
+--- Halaman 13 ---
+Contoh 1
+Gunakan pendekatan 
+persegi panjang untuk 
+menentukan luas daerah 
+yang dibatasi oleh kurva 
+𝑓𝑥= 𝑥2, sumbu-𝑥, garis 
+𝑥= 0, dan garis 𝑥= 2 
+dengan:
+(i) 𝑛= 4,
+(ii) 𝑛= 10,
+(iii) 𝑛→∞.
+• Selang 0, 2  dibagi 
+menjadi 4 selang bagian 
+yang sama panjang 
+dengan panjang 
+selangnya
+∆𝑥= 2 −0
+4
+= 1
+2 = 0.5
+Jawab: (i) untuk 𝑛= 4
+𝑖
+𝑥𝑖
+𝑓(𝑥𝑖)
+𝐴𝑖
+1
+0.5
+0.25
+0.125
+2
+1
+1
+0.5
+3
+1.5
+2.25
+1.125
+4
+2
+4
+2
+Luas daerah: 𝑅4
+= 0.125 + 0.5 + 1.125 + 2
+= 3.75
+• Selanjutnya, cari nilai-
+nilai fungsinya dengan
+𝐴𝑖= 𝑓𝑥𝑖∆𝑥
+Luas sesungguhnya 
+= 2.6667
+
+--- Halaman 14 ---
+Contoh 1
+Luas daerah: 𝑅10
+= 0.008 + 0.032 + 0.072 + 0.128 + 0.2 + 0.288 + 0.392 + 0.512
++ 0.648 + 0.8 = 3.08
+𝑖
+𝑥𝑖
+𝑓(𝑥𝑖)
+𝐴𝑖
+1
+0.2
+0.04
+0.008
+2
+0.4
+0.16
+0.032
+3
+0.6
+0.36
+0.072
+4
+0.8
+0.64
+0.128
+5
+1
+1
+0.2
+6
+1.2
+1.44
+0.288
+7
+1.4
+1.96
+0.392
+8
+1.6
+2.56
+0.512
+9
+1.8
+3.24
+0.648
+10
+20
+4
+0.8
+Gunakan pendekatan 
+persegi panjang untuk 
+menentukan luas daerah 
+yang dibatasi oleh kurva 
+𝑓𝑥= 𝑥2, sumbu-𝑥, garis 
+𝑥= 0, dan garis 𝑥= 2 
+dengan:
+(i) 𝑛= 4,
+(ii) 𝑛= 10,
+(iii) 𝑛→∞.
+Luas sesungguhnya 
+= 2.6667
+Jawab: (ii) untuk 𝑛= 10
+• Selang 0, 2  dibagi 
+menjadi 10 selang 
+bagian yang sama 
+panjang dengan 
+panjang selangnya
+∆𝑥= 2 −0
+10
+= 1
+5 = 0.2
+• Selanjutnya, cari nilai-
+nilai fungsinya dengan
+𝐴𝑖= 𝑓𝑥𝑖∆𝑥
+
+--- Halaman 15 ---
+Contoh 1
+•
+Nilai 𝑥𝑖dan 𝑓𝑥𝑖adalah
+𝑥𝑖= 0 + 𝑖∆𝑥= 2𝑖
+𝑛,
+𝑓𝑥𝑖=
+2𝑖
+𝑛
+2
+= 4𝑖2
+𝑛2 .
+•
+Luas 𝐴𝑖adalah 
+𝐴𝑖= 𝑓𝑥𝑖∆𝑥
+= 4𝑖2
+𝑛2
+2
+𝑛= 8𝑖2
+𝑛3
+𝑅𝑛= ෍
+𝑖=1
+𝑛
+𝑓𝑥𝑖∆𝑥
+= ෍
+𝑖=1
+𝑛8𝑖2
+𝑛3 = 8
+𝑛3 ෍
+𝑖=1
+𝑛
+𝑖2
+= 8
+𝑛3
+𝑛𝑛+ 1
+2𝑛+ 1
+6
+= 8
+𝑛3
+2𝑛3 + 3𝑛2 + 𝑛
+6
+= 4
+3 2 + 3
+𝑛+ 1
+𝑛2
+𝐴= lim
+𝑛→∞𝑅𝑛= 8
+3 = 2.6667
+Gunakan pendekatan 
+persegi panjang untuk 
+menentukan luas daerah 
+yang dibatasi oleh kurva 
+𝑓𝑥= 𝑥2, sumbu-𝑥, garis 
+𝑥= 0, dan garis 𝑥= 2 
+dengan:
+(i) 𝑛= 4,
+(ii) 𝑛= 10,
+(iii) 𝑛→∞.
+Luas sesungguhnya 
+= 2.6667
+Jawab: (iii) untuk 𝑛→∞
+•
+Selang 0, 2  dibagi 
+menjadi 𝑛selang bagian 
+yang sama panjang 
+dengan panjang 
+selangnya
+∆𝑥= 2 −0
+𝑛
+= 2
+𝑛
+
+--- Halaman 16 ---
+Integral Tentu
+
+--- Halaman 17 ---
+Integral Tentu
+Konsep jumlah Riemann 𝑅𝑛= σ𝑖=1
+𝑛
+𝑓𝑥𝑖∆𝑥
+dapat diperluas untuk fungsi yang di bawah 
+sumbu-𝑥 dan 𝑅𝑛< 0 karena 𝑓𝑥𝑖< 0.
+Pada selang 𝑎, 𝑏, lambang 
+jumlah Riemann ini diganti 
+dengan lambang integral tentu.
+Limit Jumlah 
+Riemann
+Integral
+lim
+𝑛→∞෍
+𝑖=1
+𝑛
+𝑓(𝑥𝑖)∆𝑥= න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥
+• ∫: integral (~ bentuk “S” = sum)
+• 𝑎, 𝑏: batas bawah, atas integral
+• 𝑓𝑥: integran (fungsi yang diintegralkan)
+• 𝑑𝑥: diintegralkan terhadap variabel 𝑥
+
+--- Halaman 18 ---
+Definisi Integral Tentu
+Integral tentu fungsi 𝑓 dari 𝑎 ke 𝑏 adalah
+න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥= lim
+𝑛→∞෍
+𝑖=1
+𝑛
+𝑓𝑐𝑖∆𝑥
+dengan 𝑐𝑖∈𝑥𝑖−1, 𝑥𝑖 dan ∆𝑥=
+𝑏−𝑎
+𝑛.
+Selang 𝑥𝑖−1, 𝑥𝑖 adalah selang bagian ke-𝑖 dari 𝑎, 𝑏= 𝑥0, 𝑥𝑛, 
+𝑖= 1, 2, …, 𝑛.
+Titik sampel 𝑐𝑖pada selang 
+bagian 𝑥𝑖−1, 𝑥𝑖dapat berupa:
+• Titik ujung kanan, 𝑐𝑖= 𝑥𝑖
+• Titik ujung kiri, 𝑐𝑖= 𝑥𝑖−1
+• Titik tengah, 𝑐𝑖=
+𝑥𝑖−1+𝑥𝑖
+2
+Syarat cukup agar 𝑓terintegralkan 
+pada 𝑎, 𝑏adalah
+𝑓 kontinu pada 𝑎, 𝑏.
+
+--- Halaman 19 ---
+Pemilihan titik sampel 𝑐𝑖untuk fungsi 𝑓𝑥= 𝑥2
+pada selang 0, 2 dengan 𝑛= 4.
+Titik ujung kanan, 𝑐𝑖= 𝑥𝑖
+Jumlah Riemann-nya 
+disebut Riemann Kanan
+Titik ujung kiri, 𝑐𝑖= 𝑥𝑖−1
+Jumlah Riemann-nya 
+disebut Riemann Kiri
+Titik tengah, 𝑐𝑖=
+𝑥𝑖−1+𝑥𝑖
+2
+Jumlah Riemann-nya 
+disebut Riemann Tengah
+
+--- Halaman 20 ---
+Contoh 2
+Gunakan definisi integral tentu (dengan titik ujung kanan) 
+untuk menghitung
+න
+−2
+3
+𝑥+ 4 𝑑𝑥.
+Gunakan definisi integral tentu (dengan titik ujung kiri) untuk 
+menghitung
+න
+−2
+3
+𝑥+ 4 𝑑𝑥.
+a
+b
+
+--- Halaman 21 ---
+Sifat-sifat 
+Integral Tentu
+
+--- Halaman 22 ---
+Sifat-sifat Integral Tentu
+න
+𝑏
+𝑎
+𝑓𝑥𝑑𝑥= −න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥
+න
+𝑎
+𝑎
+𝑓𝑥𝑑𝑥= 0
+න
+𝑎
+𝑏
+𝑐𝑑𝑥= 𝑐𝑏−𝑎
+1
+2
+3
+4
+න
+𝑎
+𝑏
+𝑐𝑓𝑥𝑑𝑥= 𝑐න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥
+න
+𝑎
+𝑏
+[𝑓𝑥± 𝑔𝑥] 𝑑𝑥= න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥± න
+𝑎
+𝑏
+𝑔𝑥𝑑𝑥
+න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥+ න
+𝑏
+𝑐
+𝑓𝑥𝑑𝑥= න
+𝑎
+𝑐
+𝑓𝑥𝑑𝑥
+5
+6
+
+--- Halaman 23 ---
+Diketahui
+න
+0
+2
+𝑓𝑥𝑑𝑥= 4 dan න
+2
+0
+𝑔𝑥−𝑓𝑥
+𝑑𝑥= 5.
+Gunakan sifat-sifat integral tentu untuk menghitung:
+a) න
+2
+0
+2𝑓𝑥−3 𝑑𝑥.  
+b) න
+0
+2
+𝑔𝑥𝑑𝑥.
+Diketahui:
+න
+1
+0
+𝑓𝑡𝑑𝑡= 2, න
+0
+4
+𝑓𝑡𝑑𝑡= −6, dan න
+3
+4
+𝑓𝑡𝑑𝑡= 1.
+Hitunglah
+න
+1
+3
+𝑓𝑡𝑑𝑡.
+Contoh 3
+1
+2
+
+--- Halaman 24 ---
+Sifat Pembandingan Selang (Sifat Keterbatasan Selang)
+Jika 𝑓𝑥≥0, 𝑥∈𝑎, 𝑏,
+maka න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥≥0
+1
+2
+3
+Jika 𝑓𝑥≥𝑔𝑥, 𝑥∈𝑎, 𝑏,
+maka න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥≥න
+𝑎
+𝑏
+𝑔𝑥𝑑𝑥
+Jika 𝑚≤𝑓𝑥≤𝑀, 𝑥∈𝑎, 𝑏,
+maka 𝑚𝑏−𝑎≤න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥≤𝑀(𝑏−𝑎)
+Dominasi
+Ketaksamaan maks-min
+
+--- Halaman 25 ---
+Gunakan sifat pembandingan integral tentu untuk memeriksa 
+kebenaran ketaksamaan berikut tanpa menghitung integralnya:
+2 ≤න
+−1
+1
+1 + 𝑥2 𝑑𝑥≤2 2.
+Contoh 4
+
+--- Halaman 26 ---
+Teorema 
+Dasar Kalkulus
+
+--- Halaman 27 ---
+Pengantar
+• Kalkulus diferensial muncul dari permasalahan garis singgung, sedangkan 
+kalkulus integral muncul dari permasalahan luas daerah dan perhitungannya 
+agak rumit seperti limit Jumlah Riemann.
+• Sepintas, keduanya tampak tidak berkaitan.
+• Newton dan Leibniz menemukan bahwa keduanya saling terkait. Konsep yang 
+mengaitkan kalkulus integral dengan kalkulus diferensial: Teorema Dasar 
+Kalkulus (TDK).
+• Dengan TDK, perhitungan integral dan aplikasinya menjadi jauh lebih mudah   
+karena ternyata integral merupakan kebalikan dari turunan.
+
+--- Halaman 28 ---
+Teorema Dasar Kalkulus 1
+Ilustrasi Geometris
+
+--- Halaman 29 ---
+Teorema Dasar Kalkulus 1
+Contoh 5 
+Tentukan:
+a
+𝑑
+𝑑𝑥න
+0
+𝑥
+1
+1 + 𝑡2 𝑑𝑡
+b
+𝑑
+𝑑𝑥න
+𝑥
+1
+sin 𝑡3 𝑑𝑡
+c
+d
+𝑑
+𝑑𝑥න
+0
+𝑥2
+1
+1 + 𝑡2 𝑑𝑡
+𝑑
+𝑑𝑥න
+𝑥
+𝑥2
+sin(𝑡3) 𝑑𝑡
+
+--- Halaman 30 ---
+Konsep Teorema Dasar Kalkulus 2
+
+--- Halaman 31 ---
+Teorema Dasar Kalkulus 2
+
+--- Halaman 32 ---
+Teorema 
+Dasar 
+Kalkulus 2
+Contoh 6 
+
+
+=== Slide Kuliah ke-13 MAT2112 Kalkulus I - Edisi 2026.pdf === (41 halaman)
+--- Halaman 1 ---
+Integral Taktentu dan
+Teknik Pengintegralan 1
+Kuliah ke-13 
+MAT2112 Kalkulus I
+Program Studi Matematika
+SSMI IPB
+Edisi 2026
+
+--- Halaman 2 ---
+Sub-CPMK
+Program Studi Matematika, SSMI IPB
+2
+Mampu menentukan integral taktentu
+Mampu menggunakan teknik substitusi
+Mampu menggunakan teknik penurunan logaritmik
+Mampu menentukan turunan dan integral yang 
+terkait dengan fungsi transenden
+
+--- Halaman 3 ---
+01
+02
+03
+04
+05
+Topik Bahasan
+Integral 
+Taktentu
+Aturan 
+Substitusi
+Fungsi 
+Logaritma 
+Natural dan 
+Teknik 
+Penurunan 
+Logaritmik
+Fungsi 
+Eksponensial 
+Natural
+Fungsi 
+Trigonometri 
+Invers
+3
+
+--- Halaman 4 ---
+Integral Taktentu
+Program Studi Matematika, 
+SSMI IPB
+4
+
+--- Halaman 5 ---
+Integral Taktentu
+Program Studi Matematika, SSMI IPB
+5
+• Berdasarkan TDK-2, kesuksesan dan kecepatan menghitung integral 
+tentu dari suatu fungsi 𝑓 adalah dengan cara menghitung 𝐹 sebagai 
+fungsi antiturunannya. Menghitung 𝐹 dari 𝑓 ini secara analitik tidak 
+selalu sukses dan mudah.
+• Metode menghitung 𝐹 dari 𝑓 disebut teknik pengintegralan terkait 
+dengan pendefinisian ulang makna antiturunan sebagai integral 
+taktentu.
+
+--- Halaman 6 ---
+Integral Taktentu
+Program Studi Matematika, SSMI IPB
+6
+Ilustrasi: Berdasarkan makna (definisi tersebut) dan sifat-sifat antiturunan 
+jelas bahwa
+න3𝑥2 −2sin 𝑥+ 10 𝑑𝑥= 𝑥3 + 2cos 𝑥+ 10𝑥+ 𝐶
+Definisi (Integral Taktentu)
+Misalkan 𝐹 adalah antiturunan 𝑓. Integral taktentu 𝑓𝑥 terhadap 𝑥 
+adalah
+න𝑓(𝑥) 𝑑𝑥= 𝐹(𝑥) + 𝐶
+
+--- Halaman 7 ---
+Integral Taktentu
+Program Studi Matematika, SSMI IPB
+7
+Sifat dan Rumus Dasar Integral Taktentu:
+න𝑘𝑓𝑥𝑑𝑥= 𝑘න𝑓𝑥𝑑𝑥
+න𝑓𝑥± 𝑔𝑥
+𝑑𝑥= න𝑓𝑥𝑑𝑥± න𝑔𝑥𝑑𝑥
+න𝑥𝑛𝑑𝑥= 𝑥𝑛+1
+𝑛+ 1 + 𝐶, 𝑛≠−1
+නsin 𝑥𝑑𝑥= −cos 𝑥+ 𝐶
+නcos 𝑥𝑑𝑥= sin 𝑥+ 𝐶
+නsec2 𝑥𝑑𝑥= tan 𝑥+ 𝐶
+නcsc2 𝑥𝑑𝑥= −cot 𝑥+ 𝐶
+නsec 𝑥tan 𝑥𝑑𝑥= sec 𝑥+ 𝐶
+නcsc 𝑥cot 𝑥𝑑𝑥= −csc 𝑥+ 𝐶
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+--- Halaman 8 ---
+Integral Taktentu
+Program Studi Matematika, SSMI IPB
+8
+Catatan: Dalam penerapan rumus dasar, nama variabel dari fungsi yang 
+diintegralkan harus sesuai (sama) dengan nama variabel diferensial dalam 
+notasi integral taktentu.
+Perhatikan bahwa
+නcos 𝑢𝑑𝑡≠sin 𝑢+ 𝐶
+atau
+නcos 2𝑥−1 𝑑𝑥≠sin 2𝑥−1 + 𝐶
+
+--- Halaman 9 ---
+Aturan Substitusi
+Program Studi Matematika, 
+SSMI IPB
+9
+
+--- Halaman 10 ---
+Aturan Substitusi
+Program Studi Matematika, SSMI IPB
+10
+• Aturan substitusi merupakan fondasi dan bagian terpenting dari Teknik 
+Pengintegralan.
+• Latar belakangnya adalah tidak semua fungsi bisa diintegralkan dengan 
+mudah hanya bermodalkan rumus-rumus dasar dalam makna 
+antiturunan sebagaimana telah disampaikan di bahasan sebelumnya.
+• Bagaimana menentukan 
+නcos 2𝑥−1 𝑑𝑥, න(2𝑥−1)2021𝑑𝑥, atau න
+1/2
+1
+2𝑥−1 𝑑𝑥?
+
+--- Halaman 11 ---
+Aturan Substitusi
+Program Studi Matematika, SSMI IPB
+11
+Teorema (Aturan Substitusi)
+Jika 𝑢= 𝑔(𝑥) adalah fungsi terturunkan dan 𝑓 kontinu pada 𝑊𝑔, maka 
+න𝑓𝑔𝑥
+𝑔′(𝑥) 𝑑𝑥= න𝑓(𝑢) 𝑑𝑢
+න
+𝑎
+𝑏
+𝑓𝑔𝑥
+𝑔′ 𝑥𝑑𝑥= න
+𝑔(𝑎)
+𝑔(𝑏)
+𝑓(𝑢) 𝑑𝑢.
+
+--- Halaman 12 ---
+Aturan Substitusi
+Program Studi Matematika, SSMI IPB
+12
+• Misalkan 𝑢= 𝑓(𝑥), maka 𝑑𝑢= 𝑓′ 𝑥 𝑑𝑥 dibaca “diferensial 𝑢 sama 
+dengan turunan 𝑓 terhadap 𝑥 dikalikan diferensial 𝑥”.
+• Ilustrasi:
+𝑢= sin 𝑥⇔𝑑𝑢= cos 𝑥𝑑𝑥
+atau jika diberikan persamaan 𝑢2 = 2𝑥, maka
+𝑑𝑢2 = 𝑑2𝑥⇔2𝑢𝑑𝑢= 2𝑑𝑥⇔𝑑𝑥= 𝑢𝑑𝑢.
+
+--- Halaman 13 ---
+Aturan Substitusi
+Program Studi Matematika, SSMI IPB
+13
+Misalkan 𝑢= 2𝑥−1, maka 𝑑𝑢= 2𝑑𝑥⇔ 𝑑𝑥=
+1
+2 𝑑𝑢 sehingga
+නcos 2𝑥−1 𝑑𝑥= 1
+2 නcos 𝑢𝑑𝑢= 1
+2 sin 𝑢+ 𝐶= 1
+2 sin 2𝑥−1 + 𝐶
+න(2𝑥−1)2021𝑑𝑥= 1
+2 න𝑢2021𝑑𝑢=
+1
+4044 𝑢2022 + 𝐶= (2𝑥−1)2022
+4044
++ 𝐶
+නcos 2𝑥−1 𝑑𝑥, න(2𝑥−1)2021𝑑𝑥, න
+1/2
+1
+2𝑥−1 𝑑𝑥?
+1
+2
+
+--- Halaman 14 ---
+Aturan Substitusi
+Program Studi Matematika, SSMI IPB
+14
+Misalkan 𝑢= 2𝑥−1, maka 𝑑𝑢= 2𝑑𝑥⇔ 𝑑𝑥=
+1
+2 𝑑𝑢 sehingga
+Untuk 𝑥= 1/2 ⇒𝑢= 0 dan untuk 𝑥= 1 ⇒𝑢= 1 sehingga
+න
+1/2
+1
+2𝑥−1 𝑑𝑥= 1
+2 න
+0
+1
+𝑢1/2𝑑𝑢= 1
+3 𝑢3/2
+0
+1 = 1
+3
+නcos 2𝑥−1 𝑑𝑥, න(2𝑥−1)2021𝑑𝑥, atau න
+1/2
+1
+2𝑥−1 𝑑𝑥?
+3
+
+--- Halaman 15 ---
+Aturan Substitusi
+Program Studi Matematika, SSMI IPB
+15
+Contoh 1 
+Evaluasi integral-integral berikut.
+න𝑥sin 𝑥2 𝑑𝑥
+න
+0
+2
+2𝑥3 + 𝑥
+𝑥4 + 𝑥2 𝑑𝑥
+1
+2
+
+--- Halaman 16 ---
+Fungsi Logaritma 
+Natural
+Program Studi Matematika, 
+SSMI IPB
+16
+
+--- Halaman 17 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+17
+Definisi: 
+Fungsi logaritma natural, notasi ln, didefinisikan sebagai
+ln 𝑥= න
+1
+𝑥1
+𝑡𝑑𝑡 ,
+untuk 𝑥> 0.
+
+--- Halaman 18 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+18
+Ilustrasi Geometrik Formulasi 𝑦= ln 𝑥:
+𝑥> 1 ⇒ 
+Luas = ׬1
+𝑥1
+𝑡𝑑𝑡= ln 𝑥
+0 < 𝑥< 1 ⇒ 
+Luas = ׬𝑥
+1 1
+𝑡𝑑𝑡= −׬1
+𝑥1
+𝑡𝑑𝑡= −ln 𝑥
+𝑦= 1
+𝑡
+𝑦= 1
+𝑡
+𝑡
+𝑡
+𝑥
+𝑥
+𝑦
+𝑦
+1
+1
+𝑥= 1 ⇒ln 1 = න
+1
+1
+1
+𝑡𝑑𝑡= 0
+
+--- Halaman 19 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+19
+Ilustrasi Geometrik Kurva 𝑦= ln 𝑥:
+1
+e
+e = 2.718281828…
+𝑦= 𝑓𝑥= ln 𝑥
+
+--- Halaman 20 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+20
+Sifat-sifat Logaritma Natural: 
+Jika 𝑥 dan 𝑦 adalah bilangan real positif, 𝑟 adalah bilangan rasional, maka
+1.  ln 1 = 0;  ln 𝑒= 1;
+2.  ln 𝑥𝑦= ln 𝑥+ ln 𝑦;
+3.  ln
+𝑥
+𝑦= ln 𝑥−ln 𝑦; dan
+4.  ln 𝑥𝑟= 𝑟ln 𝑥.
+
+--- Halaman 21 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+21
+Sifat-sifat Fungsi Logaritma Natural: 
+Misalkan 𝑦= 𝑓𝑥= ln 𝑥, maka berlaku beberapa sifat berikut ini.
+1. Berdasarkan kurvanya, 𝐷𝑓= (0, ∞) dan 𝑊𝑓= −∞, ∞= ℝ
+2. Berdasarkan TDK-1,
+𝑑𝑦
+𝑑𝑥= 𝑓′ 𝑥=
+1
+𝑥> 0 sehingga 𝑓 selalu naik pada 𝐷𝑓. 
+Kemudian, 𝑓′′ 𝑥=
+−1
+𝑥2 < 0 sehingga 𝑓 selalu cekung ke bawah. 
+3. Nilai 𝑓𝑥ቐ
+< 0
+= 0
+> 0
+jika 0 < 𝑥< 1
+jika 𝑥= 1
+jika 𝑥> 1
+
+--- Halaman 22 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+22
+Rumus Turunan Fungsi Logaritma Natural: 
+• Misalkan 𝑦= ln 𝑥, maka berdasarkan TDK-1,
+𝑑𝑦
+𝑑𝑥=
+𝑑
+𝑑𝑥ln 𝑥=
+1
+𝑥 untuk 𝑥> 0. 
+• Misalkan 𝑦= ln(𝑓(𝑥)), maka berdasarkan aturan rantai, 
+𝑑𝑦
+𝑑𝑥=
+𝑑
+𝑑𝑥ln(𝑓(𝑥)) =
+1
+𝑓(𝑥) 𝑓′(𝑥) untuk 𝑓(𝑥) > 0.
+Contoh 2
+Tentukan turunan pertama dari fungsi 𝑓𝑥= ln(𝑥2 + 1).
+
+--- Halaman 23 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+23
+Misalkan 𝑓𝑥= ln 𝑥 untuk 𝑥≠0, maka 𝑓𝑥= ቊln(𝑥) jika 𝑥> 0
+ln −𝑥 jika 𝑥< 0
+sehingga 𝑓′ 𝑥= ቐ
+1
+𝑥 jika 𝑥> 0
+−1
+−𝑥 jika 𝑥< 0
+ jhj 𝑓′ 𝑥=
+1
+𝑥 , dan diperoleh rumus 
+𝑑
+𝑑𝑥ln 𝑥=
+1
+𝑥 untuk 𝑥≠0.
+
+--- Halaman 24 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+24
+Rumus Integral yang Hasilnya Fungsi Logaritma Natural: 
+• Berdasarkan makna antiturunan,
+׬
+1
+𝑥𝑑𝑥= ln 𝑥+ 𝐶 untuk 𝑥≠0.
+Ingat: ׬
+1
+𝑥𝑑𝑥= ln 𝑥+ 𝐶 untuk 𝑥> 0.
+• Aturan substitusi tanpa pemisalan: 
+න𝑓′(𝑥)
+𝑓(𝑥) 𝑑𝑥= ln 𝑓𝑥
++ 𝐶 untuk 𝑓(𝑥) ≠0.
+
+--- Halaman 25 ---
+Fungsi Logaritma Natural
+Program Studi Matematika, SSMI IPB
+25
+Contoh 3
+Tentukan
+ න2𝑥3 + 3𝑥
+𝑥4 + 3𝑥2 𝑑𝑥.
+Hitung
+න
+𝑒
+𝑒2
+1
+𝑥ln(𝑥) 𝑑𝑥.
+1
+2
+
+--- Halaman 26 ---
+Teknik Penurunan 
+Logaritmik
+Program Studi Matematika, 
+SSMI IPB
+26
+
+--- Halaman 27 ---
+Teknik Penurunan Logaritmik
+Program Studi Matematika, SSMI IPB
+27
+Teknik penurunan logaritmik adalah suatu teknik yang utamanya 
+digunakan untuk menurunkan fungsi berpangkat fungsi, atau bisa juga 
+untuk mempercepat penurunan perkalian atau pembagian dua fungsi, 
+atau kombinasi operasi mereka.
+
+--- Halaman 28 ---
+Teknik Penurunan Logaritmik
+Program Studi Matematika, SSMI IPB
+28
+Langkah-langkah penurunan logaritmik suatu fungsi 𝑦= 𝑓(𝑥):
+1. Tuliskan ln 𝑦= ln 𝑓𝑥 dan sederhanakan berdasarkan sifat-sifat ln.
+2. Terapkan penurunan implisit
+𝑑
+𝑑𝑥(ln 𝑦) =
+𝑑
+𝑑𝑥(ln 𝑓𝑥) dan 
+sederhanakan sampai diperoleh
+1
+𝑦
+𝑑𝑦
+𝑑𝑥= 𝑔(𝑥).
+3. Hasil penurunan logaritmik adalah
+𝑑𝑦
+𝑑𝑥= 𝑔𝑥𝑓(𝑥).
+
+--- Halaman 29 ---
+Teknik Penurunan Logaritmik
+Program Studi Matematika, SSMI IPB
+29
+Contoh 4 
+Gunakan teknik penurunan logaritmik untuk menentukan
+𝑑𝑦
+𝑑𝑥 dari
+1.  𝑦= (sin 𝑥)𝑥2+1.
+2.  𝑦=
+(𝑥2+3) 2𝑥+1
+𝑥−5
+, 𝑥> 5.
+
+--- Halaman 30 ---
+Fungsi Eksponensial 
+Natural
+Program Studi Matematika, 
+SSMI IPB
+30
+
+--- Halaman 31 ---
+Fungsi Eksponensial Natural
+Program Studi Matematika, SSMI IPB
+31
+Definisi:
+Fungsi eksponensial natural, notasi exp, didefinisikan sebagai invers 
+dari fungsi logaritma natural, sehingga
+𝑦= exp(𝑥) ⇔𝑥= ln(𝑦) untuk −∞< 𝑥< ∞
+
+--- Halaman 32 ---
+Fungsi Eksponensial Natural
+Program Studi Matematika, SSMI IPB
+32
+Sifat Dasar:
+•
+exp(𝑥) = 𝑒𝑥 untuk 𝑒= 2.71828182 … .
+•
+Jika 𝑓𝑥= 𝑒𝑥, maka 𝐷𝑓= ℝ, dan 𝑊𝑓= (0, ∞), 𝑓−1 𝑥= ln 𝑥.
+•
+𝑒ln 𝑥= 𝑥 untuk ∀𝑥> 0 dan ln 𝑒𝑥= 𝑥 untuk ∀𝑥∈ℝ.
+•
+∀𝑥, 𝑦∈ℝ, 𝑒𝑥+𝑦= 𝑒𝑥𝑒𝑦, 𝑒𝑥−𝑦=
+𝑒𝑥
+𝑒𝑦, dan (𝑒𝑥)𝑦= 𝑒𝑥𝑦.
+
+--- Halaman 33 ---
+Fungsi Eksponensial Natural
+Program Studi Matematika, SSMI IPB
+33
+Ilustrasi Geometrik:
+
+--- Halaman 34 ---
+Fungsi Eksponensial Natural
+Program Studi Matematika, SSMI IPB
+34
+Misalkan 𝑦= 𝑒𝑥 , maka dengan penurunan logaritmik,
+ln 𝑦= 𝑥 ⇔1
+𝑦
+𝑑𝑦
+𝑑𝑥= 1 ⇔𝑑𝑦
+𝑑𝑥= 𝑦= 𝑒𝑥
+sehingga diperoleh rumus turunan fungsi ekponensial natural 
+𝑑
+𝑑𝑥𝑒𝑥= 𝑒𝑥 untuk ∀𝑥∈ℝ dan 
+𝑑
+𝑑𝑥𝑒𝑓(𝑥) = 𝑓′(𝑥)𝑒𝑓(𝑥)
+
+--- Halaman 35 ---
+Fungsi Eksponensial Natural
+Program Studi Matematika, SSMI IPB
+35
+Rumus Integral Fungsi Eksponensial Natural: 
+• Berdasarkan makna antiturunan,
+න𝑒𝑥𝑑𝑥= 𝑒𝑥+ 𝐶.
+• Aturan substitusi tanpa pemisalan: 
+න𝑓′ 𝑥𝑒𝑓𝑥𝑑𝑥= 𝑒𝑓𝑥+𝐶.
+
+--- Halaman 36 ---
+Fungsi Eksponensial Natural
+Program Studi Matematika, SSMI IPB
+36
+Contoh 5 
+Hitung:
+𝑑
+𝑑𝑥𝑒3𝑥2+1
+න𝑥𝑒−𝑥2+1 𝑑𝑥
+1
+2
+
+--- Halaman 37 ---
+Fungsi Trigonometri 
+Invers
+Program Studi Matematika, SSMI 
+IPB
+37
+
+--- Halaman 38 ---
+Fungsi Trigonometri Invers
+Program Studi Matematika, SSMI IPB
+38
+Review Rumus Turunan Fungsi Trigonometri Invers:
+•
+𝑑
+𝑑𝑥sin−1 𝑥=
+1
+1−𝑥2 untuk −1 < 𝑥< 1.
+•
+𝑑
+𝑑𝑥cos−1 𝑥= −
+1
+1−𝑥2 untuk −1 < 𝑥< 1.
+•
+𝑑
+𝑑𝑥tan−1 𝑥=
+1
+1+𝑥2 untuk −∞< 𝑥< ∞.
+•
+𝑑
+𝑑𝑥cot−1 𝑥= −
+1
+1+𝑥2 untuk −∞< 𝑥< ∞.
+•
+𝑑
+𝑑𝑥sec−1 𝑥=
+1
+𝑥
+𝑥2−1 untuk 𝑥< −1 ∨𝑥> 1.
+•
+𝑑
+𝑑𝑥csc−1 𝑥= −
+1
+𝑥
+𝑥2−1 untuk 𝑥< −1 ∨𝑥> 1.
+
+--- Halaman 39 ---
+Fungsi Trigonometri Invers
+Program Studi Matematika, SSMI IPB
+39
+Rumus Dasar Integral yang Hasilnya Fungsi Trigonometri Invers:
+න
+1
+1 −𝑥2 𝑑𝑥 = ൝sin−1 𝑥+ 𝐶.
+−cos−1 𝑥+ 𝐶.
+න
+1
+1 + 𝑥2 𝑑𝑥 = ൝tan−1 𝑥+ 𝐶.
+−cot−1 𝑥+ 𝐶.
+න
+1
+𝑥
+𝑥2 −1
+𝑑𝑥 = ൝sec−1 𝑥+ 𝐶.
+−csc−1 𝑥+ 𝐶.
+1
+2
+3
+
+--- Halaman 40 ---
+Fungsi Trigonometri Invers
+Program Studi Matematika, SSMI IPB
+40
+Rumus Umum Integral yang Hasilnya Fungsi Trigonometri Invers:
+න
+1
+𝑎2 −𝑥2 𝑑𝑥 = sin−1 𝑥
+𝑎+ 𝐶,
+𝑎> 0
+න
+1
+𝑎2 + 𝑥2 𝑑𝑥 = 1
+𝑎tan−1 𝑥
+𝑎+ 𝐶,
+𝑎≠0
+1
+2
+
+--- Halaman 41 ---
+Fungsi Trigonometri Invers
+Program Studi Matematika, SSMI IPB
+41
+Contoh 6 
+Buktikan bahwa 
+Hitung
+න
+1
+𝑎2 + 𝑥2 𝑑𝑥= 1
+𝑎tan−1 𝑥
+𝑎+ 𝐶, 𝑎≠0.
+න
+0
+𝜋/2
+sin 𝑥
+1 + cos2(𝑥) 𝑑𝑥.
+1
+2
+
+
+=== Slide Kuliah ke-14 MAT2112 Kalkulus I - Edisi 2026.pdf === (25 halaman)
+--- Halaman 1 ---
+Kuliah ke-14
+MAT2112 Kalkulus I
+Teknik Pengintegralan (2)
+Program Studi Matematika, SSMI
+Edisi 2026
+
+--- Halaman 2 ---
+Sub Capaian Pembelajaran MK
+(Sub-CPMK)
+Mampu menentukan 
+integral dengan teknik 
+pengintegralan parsial
+01
+Mampu menentukan 
+integral dengan 
+dekomposisi pecahan 
+parsial
+02
+Program Studi Matematika, SSMI
+
+--- Halaman 3 ---
+Topik Bahasan
+Program Studi Matematika, SSMI
+Integral Parsial
+Dekomposisi Pecahan Parsial
+
+--- Halaman 4 ---
+Manfaat Teknik Pengintegralan
+Teknik pengintegralan memungkinkan kita 
+menyelesaikan beberapa masalah integral 
+seperti:
+• menaksir luasan berbagai bentuk bidang datar,
+• menghitung atau mencari formula volume 
+berbagai bentuk geometris,
+• menghitung ketinggian roket setelah 
+diluncurkan (menghitung panjang lintasan),
+• memprediksi ukuran populasi penduduk dunia 
+pada suatu waktu (menyelesaikan persamaan 
+diferensial),
+• memperlambat pertumbuhan serangga dengan 
+menambahkan serangga jantan steril 
+(menyelesaikan persamaan diferensial).
+Banyak persamaan diferensial 
+digunakan untuk mendesain 
+Sydney Opera House. 
+Persamaan diferensial 
+diselesaikan dengan teknik 
+pengintegralan.
+
+--- Halaman 5 ---
+Menyelesaikan Masalah Integral
+න𝑥𝑛 𝑑𝑥= 𝑥𝑛+1
+𝑛+ 1 + 𝐶
+නsin 𝑥 𝑑𝑥= −cos 𝑥+ 𝐶
+නcos 𝑥 𝑑𝑥= sin 𝑥+ 𝐶
+නsec2 𝑥 𝑑𝑥= tan 𝑥+ 𝐶
+නsec 𝑥tan 𝑥 𝑑𝑥= sec 𝑥+ 𝐶
+න1
+𝑥 𝑑𝑥= ln |𝑥| + 𝐶
+න𝑒𝑥 𝑑𝑥= 𝑒𝑥+ 𝐶
+න𝑎𝑥 𝑑𝑥= 𝑎𝑥
+ln 𝑎+ 𝐶
+න
+𝑑𝑥
+𝑎2 −𝑥2 = sin−1 𝑥
+𝑎+ 𝐶
+න
+𝑑𝑥
+𝑥2 + 𝑎2 = 1
+𝑎tan−1 𝑥
+𝑎+ 𝐶
+Tabel integral dapat digunakan untuk menyelesaikan 
+masalah integral istimewa dan sederhana:
+Beberapa masalah integral yang 
+lebih kompleks harus 
+diselesaikan dengan teknik 
+pengintegralan khusus. Ada tiga 
+teknik yang dibahas di kuliah 
+ini:
+1. Teknik substitusi (sudah 
+dibahas di pertemuan 
+sebelumnya).
+2. Teknik integral parsial.
+3. Teknik dekomposisi pecahan 
+parsial.
+
+--- Halaman 6 ---
+Integral Parsial
+Program Studi Matematika, SSMI
+
+--- Halaman 7 ---
+Integral Parsial
+Teknik 
+pengintegralan 
+parsial sering digunakan 
+untuk 
+menyelesaikan 
+masalah integral 
+yang 
+melibatkan 
+interaksi 
+fungsi 
+transenden 
+(trigonometri, logaritmik, 
+eksponensial) 
+dengan 
+fungsi 
+lain 
+atau 
+sesamanya.
+න𝑥sin 𝑥 𝑑𝑥,
+න𝑒𝑥cos 𝑥 𝑑𝑥,
+නln 𝑥 𝑑𝑥,
+නsin−1 𝑥 𝑑𝑥,
+න𝑥𝑒𝑥 𝑑𝑥,
+නcos(ln 𝑥)  𝑑𝑥,
+නln 𝑥
+𝑥2  𝑑𝑥,
+Berikut adalah beberapa bentuk 
+integral yang dapat diselesaikan 
+dengan integral parsial:
+dsb.
+
+--- Halaman 8 ---
+Rumus Integral 
+Parsial
+Rumus integral parsial 
+bermula dari rumus 
+di atas!
+Pengintegralan kedua ruas memberikan:
+𝑓𝑥𝑔(𝑥) = න𝑓′ 𝑥𝑔𝑥𝑑𝑥+ න𝑓𝑥𝑔′(𝑥) 𝑑𝑥
+න𝑓𝑥𝑔′(𝑥) 𝑑𝑥= 𝑓𝑥𝑔𝑥−න𝑓′ 𝑥𝑔𝑥𝑑𝑥
+Dalam bentuk 𝑓(𝑥) dan 𝑔(𝑥), rumus turunan 
+di samping dapat ditulis menjadi:
+𝑑
+𝑑𝑥𝑓(𝑥𝑔𝑥) = 𝑓′ 𝑥𝑔𝑥+ 𝑓𝑥𝑔′(𝑥).
+Masih ingatkah Anda dengan 
+rumus turunan terkenal 
+berikut?
+𝑢𝑣′ = 𝑢′𝑣+ 𝑢𝑣′.
+Dengan memisalkan 𝑢= 𝑓(𝑥) sehingga 
+𝑑𝑢= 𝑓′ 𝑥 𝑑𝑥 dan 𝑑𝑣= 𝑔′ 𝑥 𝑑𝑥 
+sehingga 𝑣= 𝑔𝑥, bentuk di atas dapat 
+ditulis menjadi:
+න𝑢 𝑑𝑣= 𝑢𝑣−න𝑣 𝑑𝑢.
+
+--- Halaman 9 ---
+Rumus Integral Parsial
+Jadi pada dasarnya integral parsial 
+merupakan metode substitusi ganda:
+𝑑𝑢
+=
+?
+𝑣
+=
+?
+𝑢
+=
+?
+❶
+𝑑𝑣
+=
+?
+❷
+Kadang kala, agar mudah diingat, 
+rumus integral parsial disusun 
+dalam bentuk tabel:
+𝑻
+𝑰
+𝑢
++
+𝑑𝑣
+𝑑𝑢
+−
+𝑣
+⋮
+⋮
+⋮
+0
+ Metode Column Integration (Tabular)
+Metode ini membutuhkan beberapa penyesuaian bergantung pada 
+masalah integral yang dihadapi. Tidak akan dibahas lagi.
+Rumus integral parsial diberikan oleh:
+න𝑓(𝑥)  𝑑𝑥= න𝑢 𝑑𝑣= 𝑢𝑣−න𝑣 𝑑𝑢.
+
+--- Halaman 10 ---
+Lakukan Permisalan dengan Benar
+න𝑥cos 𝑥𝑑𝑥
+Misalkan:
+𝑢= 𝑥⇒𝑑𝑢= 𝑑𝑥,
+𝑑𝑣= cos 𝑥 𝑑𝑥⇒𝑣= sin 𝑥.
+= 𝑢𝑣−න𝑣𝑑𝑢= 𝑥sin 𝑥−නsin 𝑥𝑑𝑥
+= 𝑥sin 𝑥+ cos 𝑥+ 𝐶.  ∎
+Apa jadinya kalau kita salah memisalkan?
+න𝑥cos 𝑥𝑑𝑥
+Misalkan:
+𝑢= cos 𝑥⇒𝑑𝑢= −sin 𝑥𝑑𝑥,
+𝑑𝑣= 𝑥 𝑑𝑥⇒𝑣= 1
+2𝑥2.
+= 𝑢𝑣−න𝑣𝑑𝑢
+= cos 𝑥⋅1
+2𝑥2 + න1
+2𝑥2 sin 𝑥𝑑𝑥
+Integral ini lebih sulit daripada integral 
+sebelumnya. Mungkin kita telah salah 
+memisalkan.
+Integral ini lebih mudah daripada 
+integral sebelumnya. 
+Jika kita memisalkan dengan benar....
+
+--- Halaman 11 ---
+Contoh 1
+නln 𝑥 𝑑𝑥
+Misalkan:
+𝑢= ln 𝑥⇒𝑑𝑢= 1
+𝑥 𝑑𝑥,
+𝑑𝑣=  𝑑𝑥⇒𝑣= 𝑥.
+= 𝑢𝑣−න𝑣𝑑𝑢= 𝑥ln 𝑥−න𝑥⋅1
+𝑥 𝑑𝑥
+= 𝑥ln 𝑥−𝑥+ 𝐶.  ∎
+නln 𝑥
+𝑥2  𝑑𝑥
+Misalkan:
+𝑢= ln 𝑥⇒𝑑𝑢= 1
+𝑥 𝑑𝑥,
+𝑑𝑣= 1
+𝑥2  𝑑𝑥⇒𝑣= −1
+𝑥.
+= 𝑢𝑣−න𝑣𝑑𝑢= −1
+𝑥ln 𝑥+ න1
+𝑥⋅1
+𝑥 𝑑𝑥= −1
+𝑥ln 𝑥+ න𝑥−2  𝑑𝑥
+= −1
+𝑥ln 𝑥−1
+𝑥+ 𝐶.  ∎
+= 𝑥ln 𝑥−න1  𝑑𝑥
+
+--- Halaman 12 ---
+Integral Parsial Dua Kali
+න𝑥𝑒𝑥 𝑑𝑥
+Misalkan:
+𝑢= 𝑥⇒𝑑𝑢=  𝑑𝑥,
+𝑑𝑣= 𝑒𝑥 𝑑𝑥⇒𝑣= 𝑒𝑥.
+= 𝑢𝑣−න𝑣𝑑𝑢= 𝑥𝑒𝑥−න𝑒𝑥 𝑑𝑥= 𝑥𝑒𝑥−𝑒𝑥+ 𝐶.  ∎
+Kadang kala kita harus melakukan integral parsial dua kali....
+න𝑥2𝑒𝑥 𝑑𝑥
+Misalkan:
+𝑢= 𝑥2 ⇒𝑑𝑢= 2𝑥 𝑑𝑥,
+𝑑𝑣= 𝑒𝑥 𝑑𝑥⇒𝑣= 𝑒𝑥.
+= 𝑢𝑣−න𝑣𝑑𝑢= 𝑥2𝑒𝑥−2 න𝑥𝑒𝑥 𝑑𝑥
+= 𝑥2𝑒𝑥−2( 
+).  ∎
+Integral ini harus diselesaikan sekali lagi 
+dengan integral parsial. Lihat soal di atas.
+𝑥𝑒𝑥−𝑒𝑥+ 𝐶
+
+--- Halaman 13 ---
+Bertemu dengan Bentuk Semula
+න𝑒𝑥sin 𝑥 𝑑𝑥
+Misalkan:
+𝑢= 𝑒𝑥⇒𝑑𝑢= 𝑒𝑥 𝑑𝑥,
+𝑑𝑣= sin 𝑥𝑑𝑥⇒𝑣= −cos 𝑥.
+= 𝑢𝑣−න𝑣𝑑𝑢= −𝑒𝑥cos 𝑥+ න𝑒𝑥cos 𝑥𝑑𝑥
+Misalkan:
+𝑢= 𝑒𝑥⇒𝑑𝑢= 𝑒𝑥 𝑑𝑥,
+𝑑𝑣= cos 𝑥𝑑𝑥⇒𝑣= sin 𝑥.
+= −𝑒𝑥cos 𝑥+
+𝑒𝑥sin 𝑥−න𝑒𝑥sin 𝑥𝑑𝑥
+= −𝑒𝑥cos 𝑥+ 𝑒𝑥sin 𝑥−න𝑒𝑥sin 𝑥 𝑑𝑥
+Integral ini sama dengan 
+integral awal. Pindah ruas.
+= −𝑒𝑥cos 𝑥+ 𝑒𝑥sin 𝑥
+Integral parsial 
+sekali lagi.
+2 න𝑒𝑥sin 𝑥 𝑑𝑥
+න𝑒𝑥sin 𝑥 𝑑𝑥
+න𝑒𝑥sin 𝑥 𝑑𝑥
+න𝑒𝑥sin 𝑥 𝑑𝑥= −1
+2𝑒𝑥cos 𝑥+ 1
+2𝑒𝑥sin 𝑥+ 𝐶.  ∎
+
+--- Halaman 14 ---
+Integral Parsial + Manipulasi Integran
+Kadang kala kita harus melakukan manipulasi integran 
+sebelum menggunakan integral parsial....
+න𝑒𝑥 𝑑𝑥
+Substitusi yang 
+merasionalkan:
+𝑢=
+𝑥⇒𝑢2 = 𝑥
+⇒2𝑢 𝑑𝑢= 𝑑𝑥.
+= න2𝑢𝑒𝑢𝑑𝑢= 2 න𝑢𝑒𝑢𝑑𝑢
+Diselesaikan dengan integral parsial. 
+Sudah dibahas di contoh sebelumnya.
+= 2(𝑢𝑒𝑢−𝑒𝑢) + 𝐶
+= 2( 𝑥𝑒𝑥−𝑒𝑥) + 𝐶.  ∎
+
+--- Halaman 15 ---
+Integral Tentu dengan Integral Parsial
+Rumus integral parsial pada 
+integral tentu diberikan oleh:
+න
+𝑎
+𝑏
+𝑢 𝑑𝑣= (𝑢𝑣ቚ
+𝑎
+𝑏
+) −න
+𝑎
+𝑏
+𝑣𝑑𝑢.
+Pemberian batas ini 
+sering dilupakan
+න
+1
+𝑒ln 𝑥
+𝑥2  𝑑𝑥
+Misalkan:
+𝑢= ln 𝑥⇒𝑑𝑢= 1
+𝑥 𝑑𝑥,
+𝑑𝑣= 1
+𝑥2  𝑑𝑥⇒𝑣= −1
+𝑥.
+=
+ቤ
+−1
+𝑥ln 𝑥
+1
+𝑒
++ න
+1
+𝑒1
+𝑥2  𝑑𝑥=
+−ln 𝑒
+𝑒+ ln 1
+1
+−ቤ
+1
+𝑥1
+𝑒
+= −1
+𝑒−1
+𝑒+ 1 = 1 −2
+𝑒. ∎
+ingat:
+ln 𝑒= 1
+ln 1 = 0
+
+--- Halaman 16 ---
+Contoh 2
+Tentukan:
+නsin
+𝑥 𝑑𝑥
+
+--- Halaman 17 ---
+Dekomposisi Pecahan Parsial
+Program Studi Matematika, SSMI
+
+--- Halaman 18 ---
+Integral yang Berkaitan dengan Fungsi Logaritmik
+Dengan substitusi sederhana kita 
+juga memperoleh:
+න
+1
+𝑥−1  𝑑𝑥= ln 𝑥−1 + 𝐶.
+න1
+𝑥 𝑑𝑥= ln 𝑥+ 𝐶.
+Dari tabel integral, kita mengetahui 
+bahwa:
+න
+1
+𝑥+ 1  𝑑𝑥= ln 𝑥+ 1 + 𝐶.
+Apakah dengan analogi yang sama 
+kita memperoleh hasil berikut?
+න
+2
+𝑥2 −1  𝑑𝑥= 2 ln 𝑥2 −1 + 𝐶.
+Seandainya kita menyadari bahwa....
+2
+𝑥2 −1 =
+1
+𝑥−1 −
+1
+𝑥+ 1 ,
+න
+2
+𝑥2 −1  𝑑𝑥= න
+1
+𝑥−1  𝑑𝑥−න
+1
+𝑥+ 1  𝑑𝑥.
+maka kita akan memperoleh jawabannya:
+Dekomposisi 
+pecahan 
+parsial
+
+--- Halaman 19 ---
+Dekomposisi Pecahan Parsial
+න𝑟(𝑥)  𝑑𝑥= න𝑝(𝑥)
+𝑞(𝑥)  𝑑𝑥,
+Pengintegralan fungsi rasional 
+𝑟(𝑥) dituliskan sebagai:
+dengan 𝑝(𝑥) dan 𝑞(𝑥) polinom. 
+Pengintegralan fungsi rasional 
+𝑟(𝑥) dapat diselesaikan melalui 
+dekomposisi pecahan parsial.
+Jika derajat 𝑝(𝑥) lebih besar 
+daripada derajat 𝑞𝑥, bagi dulu. 
+1
+𝑥(2𝑥−3) = −1/3
+𝑥+
+2/3
+2𝑥−3
+𝑥
+𝑥−1 2(𝑥+ 3) = 3/16
+𝑥−1 +
+1/4
+𝑥−1 2 −3/16
+𝑥+ 3
+𝑥4 −2
+𝑥(𝑥2 + 1)
+Contoh-contoh Dekomposisi Pecahan Parsial
+Pecahan parsial ditentukan oleh faktor-faktor penyebut 𝑞(𝑥).
+= 𝑥−2
+𝑥+
+𝑥
+𝑥2 + 1
+= 𝑥−
+𝑥2 + 2
+𝑥(𝑥2 + 1)
+
+--- Halaman 20 ---
+Dekomposisi Pecahan Parsial: 4 Kasus
+Penyebut 𝑞(𝑥) tersusun atas faktor-faktor linear yang berbeda:
+𝑞𝑥= 𝑎1𝑥+ 𝑏1
+𝑎2𝑥+ 𝑏2 ⋯𝑎𝑘𝑥+ 𝑏𝑘.
+1
+𝑝(𝑥)
+𝑞(𝑥) =
+𝐴1
+𝑎1𝑥+ 𝑏1
++
+𝐴2
+𝑎2𝑥+ 𝑏2
++ ⋯+
+𝐴𝑘
+𝑎𝑘𝑥+ 𝑏𝑘
+Dekomposisi 
+pecahan 
+parsial
+1
+𝑥2 −3𝑥+ 2
+𝑥2 −𝑥+ 1
+𝑥(𝑥+ 1)(𝑥−5)
+Contoh:
+Berapa nilai koefisien 
+𝐴𝑖 dan 𝐵𝑖 sehingga 
+persamaan terpenuhi?
+=
+1
+(𝑥−2)(𝑥−1) =
+𝐴1
+𝑥−2 +
+𝐴2
+𝑥−1 .
+= 𝐵1
+𝑥+
+𝐵2
+𝑥+ 1 +
+𝐵3
+𝑥−5 .
+
+--- Halaman 21 ---
+Dekomposisi Pecahan Parsial: 4 Kasus
+Penyebut 𝑞(𝑥) tersusun atas faktor-faktor linear yang berulang:
+𝑞𝑥= 𝑎𝑥+ 𝑏
+𝑎𝑥+ 𝑏⋯𝑎𝑥+ 𝑏= 𝑎𝑥+ 𝑏𝑘.
+2
+𝑝(𝑥)
+𝑞(𝑥) =
+𝐴1
+𝑎𝑥+ 𝑏+
+𝐴2
+𝑎𝑥+ 𝑏2 +
+𝐴3
+𝑎𝑥+ 𝑏3 + ⋯+
+𝐴𝑘
+𝑎𝑥+ 𝑏𝑘
+Dekomposisi 
+pecahan 
+parsial
+1
+2𝑥−5 3
+𝑥2 + 1
+𝑥2 𝑥−1 3
+Contoh:
++
+𝐴3
+2𝑥−5 3
+=
+𝐴1
+2𝑥−5 +
+𝐴2
+2𝑥−5 2
+= 𝐵1
+𝑥+ 𝐵2
+𝑥2
+Berapa nilai koefisien 
+𝐴𝑖 dan 𝐵𝑖 sehingga 
+persamaan terpenuhi?
++ 𝐵3
+𝑥−1 +
+𝐵4
+𝑥−1 2 +
+𝐵5
+𝑥−1 3
+
+--- Halaman 22 ---
+Dekomposisi Pecahan Parsial: 4 Kasus
+Penyebut 𝑞(𝑥) memiliki faktor kuadratik yang tidak bisa diuraikan:
+𝑞𝑥= (𝑎1𝑥2 + 𝑏1𝑥+ 𝑐1)(𝑎2𝑥2 + 𝑏2𝑥+ 𝑐2), dengan diskriminan 
+𝐷𝑖= 𝑏𝑖
+2 −4𝑎𝑖𝑐𝑖< 0.
+3
+𝑝(𝑥)
+𝑞(𝑥) =
+𝐴1𝑥+ 𝐴2
+𝑎1𝑥2 + 𝑏1𝑥+ 𝑐1
++
+𝐴3𝑥+ 𝐴4
+𝑎2𝑥2 + 𝑏2𝑥+ 𝑐2
+Dekomposisi 
+pecahan 
+parsial
+2𝑥3 −𝑥2
+(𝑥2 + 1)(𝑥2 + 𝑥+ 2)
+Contoh:
+𝑎= 1,
+𝑏= 0,
+𝑐= 1,
+𝐷= −4
+𝑎= 1,
+𝑏= 1,
+𝑐= 2,
+𝐷= −7
+= 𝐴1𝑥+ 𝐴2
+𝑥2 + 1 + 𝐴3𝑥+ 𝐴4
+𝑥2 + 𝑥+ 2 .
+Berapa nilai koefisien 
+𝐴𝑖 sehingga persamaan 
+terpenuhi?
+
+--- Halaman 23 ---
+Dekomposisi Pecahan Parsial: 4 Kasus
+Kombinasi Kasus 1, 2, 3
+4
+Contoh:
+1
+𝑥2(𝑥+ 3)(1 −𝑥) = 𝐴1
+𝑥+ 𝐴2
+𝑥2 +
+𝐴3
+𝑥+ 3 +
+𝐴4
+1 −𝑥.
+𝑥
+𝑥2(𝑥2 + 3) = 𝐵1
+𝑥+ 𝐵2
+𝑥2 + 𝐵3𝑥+ 𝐵4
+𝑥2 + 3 .
+2𝑥−1
+𝑥3(2𝑥−1) 𝑥2 + 3 2 = 𝐶1
+𝑥+ 𝐶
+𝑥2 + 𝐶3
+𝑥3 +
+𝐶4
+2𝑥−1 + 𝐶5𝑥+ 𝐶6
+𝑥2 + 3 + 𝐶7𝑥+ 𝐶8
+𝑥2 + 3 2 .
+
+--- Halaman 24 ---
+Dekomposisi Pecahan Parsial
+Langkah-langkah mendekomposisi 
+pecahan parsial:
+Diberikan fungsi rasional sejati
+𝑝(𝑥)
+𝑞(𝑥). 
+1. Faktorkan 𝑞𝑥.
+2. Identifikasi kasus 1, 2, 3, 4.
+3. Dekomposisi berdasarkan kasus.
+4. Jumlahkan semua pecahan parsial 
+dengan menyamakan penyebutnya.
+5. Samakan pembilang dengan 𝑝(𝑥).
+6. Ambil beberapa nilai 𝑥 untuk 
+menemukan nilai-nilai koefisien 𝐴𝑖.
+Contoh
+Dengan teknik dekomposisi pecahan 
+parsial, tunjukkan bahwa:
+න
+1
+𝑥2 −𝑥 𝑑𝑥= −ln 𝑥+ ln 𝑥−1 + 𝐶. 
+
+--- Halaman 25 ---
+Integral Dekomposisi
+න5𝑥2 + 3𝑥−2
+𝑥2(𝑥+ 2)
+ 𝑑𝑥= 2 ln 𝑥+ 1
+𝑥+ 3 ln 𝑥+ 2 + 𝐶.
+න
+−2𝑥+ 4
+𝑥−1 2(𝑥2 + 1)  𝑑𝑥= −2 ln 𝑥−1 −
+1
+𝑥−1 + ln 𝑥2 + 1 + tan−1 𝑥+ 𝐶.
+Contoh 3
+1. Dengan teknik dekomposisi pecahan parsial, tunjukkan bahwa:
+2. Evaluasi:
+න
+𝜋
+6
+π
+2
+cos 𝑥
+sin 𝑥 (sin2 𝑥+ 1)  𝑑𝑥.
+
+
+=== Slide Kuliah ke-15 MAT2112 Kalkulus I - Edisi 2026.pdf === (18 halaman)
+--- Halaman 1 ---
+APLIKASI INTEGRAL
+MAT2112 KALKULUS I
+Program Studi Matematika SSMI IPB
+1
+Ku l i a h  ke - 1 5
+Edisi 2026
+
+--- Halaman 2 ---
+Sub CPMK
+Mampu menerapkan integral tentu
+dalam menentukan luas daerah di
+bidang datar
+01
+Mampu
+menerapkan
+integral
+tentu
+dalam
+menentukan
+nilai
+rataan fungsi
+02
+Program Studi Matematika SSMI IPB 
+
+--- Halaman 3 ---
+TOPIK BAHASAN
+LUAS DAERAH DI BIDANG DATAR
+01
+NILAI RATAAN FUNGSI
+02
+Program Studi Matematika SSMI IPB 
+
+--- Halaman 4 ---
+LUAS DAERAH DI BIDANG DATAR
+P R I N S I P  I N D U K S I  M AT E M AT I K
+( V E R 2 )
+01
+Program Studi Matematika SSMI IPB 
+4
+
+--- Halaman 5 ---
+Perbedaan Perhitungan Integral Tentu dan Luas Daerah
+5
+• Luas:  nilainya bilangan real taknegatif
+න
+𝑎
+𝑐
+𝑓𝑥 𝑑𝑥= න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥+ න
+𝑏
+𝑐
+−𝑓𝑥𝑑𝑥
+= 5 −(−8) = 13
+׬𝑎
+𝑏𝑓𝑥𝑑𝑥= 5 = Luas 
+׬𝑏
+𝑐𝑓𝑥𝑑𝑥= −8 = −Luas  
+• Integral Tentu:  nilainya bilangan real
+න
+𝑎
+𝑐
+𝑓(𝑥) 𝑑𝑥= න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥+ න
+𝑏
+𝑐
+𝑓𝑥𝑑𝑥
+= 5 + −8 = −3
+
+--- Halaman 6 ---
+6
+• Misalkan 𝑓 adalah fungsi yang kontinu pada interval 𝑎, 𝑐.
+• Grafik fungsi 𝑦= 𝑓(𝑥) pada bidang-𝑥𝑦, biasa disebut sebagai kurva 
+𝑦= 𝑓(𝑥) pada bidang-𝑥𝑦. 
+• 𝑆 adalah daerah yang dibatasi oleh kurva 𝑦= 𝑓𝑥, sumbu-𝑥,  
+garis 𝑥= 𝑎 dan garis  𝑥= 𝑐.
+• Luas 𝑺
+ 
+𝐴= න
+𝑎
+𝑐
+|𝑓𝑥|𝑑𝑥
+Luas Daerah antara Kurva dan Sumbu-𝑥
+
+--- Halaman 7 ---
+Luas Daerah antara Dua Kurva
+Menghitung
+Luas Daerah antara 
+Dua Kurva
+Sekatan Tegak
+Sekatan Datar
+
+--- Halaman 8 ---
+Luas Daerah antara Dua Kurva:  Sekatan Tegak
+Metode 3S: Skets, Sekat, Sum (Integral)
+Skets
+• Buat sketsa grafik.
+• Tandai daerah yang 
+akan dihitung luasnya.
+Sekat
+• Bagi selang [𝑎, 𝑏] menjadi 𝑛 selang bagian
+𝑥𝑘−1 , 𝑥𝑘, 𝑘= 1, 2, … , 𝑛
+• Buat sekatan/irisan tegak persegi panjang kecil 
+pada daerah tsb.
+• Lebar persegi panjang = Δ𝑥𝑘 
+• Tinggi persegi panjang = 𝑓𝑐𝑘−𝑔𝑐𝑘
+• Luas persegi panjang = 𝑓𝑐𝑘−𝑔𝑐𝑘
+Δ𝑥𝑘
+Sum
+𝐴= lim
+𝑛→∞෍
+𝑘=1
+𝑛
+𝑓𝑐𝑘−𝑔𝑐𝑘
+Δ𝑥𝑘 
+   = ׬𝑎
+𝑏𝑓𝑥−𝑔(𝑥) 𝑑𝑥
+
+--- Halaman 9 ---
+9
+Definisi (Luas Daerah antara Kurva: Sekatan Tegak)
+Luas daerah di antara kurva 𝑦= 𝑓(𝑥) dan 𝑦= 𝑔(𝑥) serta garis 𝑥= 𝑎 dan 𝑥= 𝑏 
+adalah
+𝐴= ׬𝑎
+𝑏𝑓𝑥−𝑔(𝑥) 𝑑𝑥       ⋯(1)
+• Karena 𝑓𝑥−𝑔𝑥
+=
+ቊ𝑓𝑥−𝑔𝑥;
+𝑓𝑥≥𝑔(𝑥)
+𝑔𝑥−𝑓𝑥;
+𝑓𝑥< 𝑔(𝑥)
+Formula (1)  bermakna memecah seluruh 
+daerah 𝑆 menjadi daerah 𝑆1, 𝑆2, … dengan luas 
+𝐴1, 𝐴2, … sehingga 𝐴= 𝐴1 + 𝐴2 + ⋯
+• Apabila sketsa daerah dapat digambar, 
+lambang nilai mutlak dapat diabaikan 
+dengan memperhatikan posisi kurva-kurva 
+yang ada (atas – bawah).
+
+--- Halaman 10 ---
+10
+Contoh 𝟏  (Luas Daerah antara Kurva: Sekatan Tegak)
+a. Buat sketsa daerah 𝑆 yang dibatasi oleh kurva 𝑓𝑥= 𝑥2 + 2, 
+kurva 𝑔𝑥= 𝑥, garis 𝑥= −1, dan garis 𝑥= 2. 
+b. Hitung luas 𝑆.
+
+--- Halaman 11 ---
+11
+Luas Daerah antara Kurva:  Sekatan Datar
+Definisi (Luas Daerah antara Kurva: 
+Sekatan Datar)
+Luas daerah di antara kurva 𝑥= 𝑓(𝑦) 
+dan 𝑥= 𝑔(𝑦) serta garis 𝑦= 𝑐 dan 
+𝑦= 𝑑 adalah
+𝐴= ׬𝑐
+𝑑𝑓𝑦−𝑔(𝑦) 𝑑𝑦      ⋯(2)
+Catatan:
+• Apabila sketsa daerah dapat digambar, 
+lambang nilai mutlak pada (2) dapat 
+diabaikan dengan memperhatikan posisi 
+kurva-kurva yang ada (kanan – kiri).
+Sum
+𝐴= lim
+𝑛→∞෍
+𝑘=1
+𝑛
+𝑓𝑒𝑘−𝑔𝑒𝑘
+∆𝑦𝑘
+= න
+𝑐
+𝑑
+𝑓𝑦−𝑔(𝑦) 𝑑𝑦
+
+--- Halaman 12 ---
+12
+Contoh 𝟐  (Luas Daerah antara Kurva: Sekatan Datar/Tegak)
+a. Buat sketsa daerah 𝑆 yang dibatasi oleh kurva 𝑥= 𝑦2, kurva 𝑥= 𝑦+ 2, 
+dan 𝑦≥0.
+b. Hitung luas 𝑆 menggunakan sekatan datar. 
+c. Hitung luas 𝑆 menggunakan sekatan tegak.
+
+--- Halaman 13 ---
+13
+Contoh 3  (Luas Daerah antara Kurva: Sekatan Datar/Tegak)
+a. Buat sketsa daerah 𝑆 yang dibatasi oleh kurva 𝑦= sin 𝑥 dan 
+kurva 𝑦= cos 𝑥 dengan 0 ≤𝑥≤
+𝜋
+2.
+b. Hitung luas 𝑆.
+
+--- Halaman 14 ---
+NILAI RATAAN FUNGSI
+P R I N S I P  I N D U K S I  M AT E M AT I K
+( V E R 2 )
+02
+Program Studi Matematika SSMI IPB - 2026
+14
+
+--- Halaman 15 ---
+15
+Nilai Rataan Fungsi
+• Rataan 𝑛 nilai 
+𝑦1, 𝑦2, … , 𝑦𝑛 adalah
+  ത𝑦=
+𝑦1+𝑦2+⋯+𝑦𝑛
+𝑛
+• Berapa nilai rataan 
+fungsi 𝑦= 𝑓(𝑥) pada 
+𝑎, 𝑏 
+• Jika 𝑛→∞, maka nilai rataan fungsi 𝒇 pada 
+𝒂, 𝒃 adalah
+ҧ𝑓= lim
+𝑛→∞
+1
+𝑏−𝑎෍
+𝑖=1
+𝑛
+𝑓𝑥𝑖Δ𝑥=
+1
+𝑏−𝑎න
+𝑎
+𝑏
+𝑓𝑥𝑑𝑥.
+• Bagi selang 𝑎, 𝑏 menjadi 𝑛 bagian yang sama 
+dengan lebar Δ𝑥=
+𝑏−𝑎
+𝑛.
+• 𝑥𝑖= 𝑎+ 𝑖Δ𝑥, 𝑖= 0,1,2, … , 𝑛.
+• ഥ𝑓𝑛=
+𝑓(𝑥1)+𝑓(𝑥2)+⋯+𝑓(𝑥𝑛)
+𝑛
+        =
+𝑓(𝑥1)+𝑓(𝑥2)+⋯+𝑓(𝑥𝑛)
+(𝑏−𝑎)/Δ𝑥
+        =
+[𝑓(𝑥1)+𝑓(𝑥2)+⋯+𝑓(𝑥𝑛)]Δ𝑥
+𝑏−𝑎
+=
+1
+𝑏−𝑎σ𝑖=1
+𝑛
+𝑓𝑥𝑖Δ𝑥
+𝑥0 = 𝑎
+𝑥𝑛= 𝑏
+𝑥1
+𝑥2
+Δ𝑥
+⋯
+
+--- Halaman 16 ---
+16
+Teorema Nilai Rataan untuk Integral  (TNR untuk Integral)
+Jika fungsi 𝑓 kontinu pada [𝑎, 𝑏], maka terdapat 𝑐∈[𝑎, 𝑏] sehingga 
+𝑓𝑐=
+1
+𝑏−𝑎׬𝑎
+𝑏𝑓𝑥𝑑𝑥 
+atau ׬𝑎
+𝑏𝑓𝑥𝑑𝑥= 𝑓𝑐
+𝑏−𝑎.
+
+--- Halaman 17 ---
+17
+Contoh 𝟒  (Nilai Rataan Fungsi)
+Tentukan nilai rataan fungsi 𝑓 dengan 𝑓𝑥= 𝑥2 + 1 pada −1,2 , 
+kemudian tentukan nilai 𝑐 yang dimaksud pada TNR untuk Integral
+
+--- Halaman 18 ---
+18
+Contoh 𝟓  (Nilai Rataan Fungsi)
+Titik-titik pada grafik di samping 
+menyatakan hasil pengukuran suhu kota 
+Jakarta (𝑇 dalam ℃) setiap 2 jam pada 
+suatu hari tertentu.  Kurva yang 
+merepresentasikan gugus data 
+pengamatan tersebut adalah 
+𝑇𝑡= 28 + 5 sin
+𝜋
+12 (𝑡−1)
+dengan 𝑡 menyatakan lama waktu (dalam 
+jam) setelah pukul 6 pagi.  Tentukan 
+rataan suhu kota Jakarta selama satu 
+hari. Petunjuk: cos 2𝜋−𝜃= cos 𝜃.
+
+
+=== Slide Kuliah ke-9 MAT2112 Kalkulus I - Edisi 2026 (1).pdf === (31 halaman)
+--- Halaman 1 ---
+Terapan Turunan (1)
+Kuliah Ke-9
+MAT2112 Kalkulus I
+Program Studi Matematika, SSMI IPB
+1
+Edisi 2026
+
+--- Halaman 2 ---
+SUB-CMPK
+Mampu menentukan nilai ekstrem lokal dan global
+Mampu menggunakan teorema nilai rata-rata untuk turunan
+Mampu menjelaskan dan menentukan kemonotonan fungsi
+2
+
+--- Halaman 3 ---
+Topik Bahasan
+Nilai Maksimum dan Minimum
+Teorema Nilai Rataan untuk Turunan
+Turunan Pertama dan Kemonotonan Fungsi
+Uji Turunan dan Ekstrem Lokal 
+3
+
+--- Halaman 4 ---
+Nilai Maksimum dan 
+Minimum
+
+--- Halaman 5 ---
+Beberapa Aplikasi Turunan
+Sudut optimal pencabangan 
+pembuluh darah yang meminimumkan 
+energi dari jantung
+Frekuensi kepakan sayap burung yang 
+meminimumkan energi
+Formasi, lokasi, dan warna pelangi
+Percepatan maksimum pesawat 
+angkasa ulang-alik
+Ukuran kaleng yang meminimumkan 
+biaya produksi
+5
+
+--- Halaman 6 ---
+6
+NILAI EKSTREM FUNGSI
+• ekstrem global = ekstrem mutlak
+• ekstrem lokal = ekstrem relatif 
+maks 
+global
+min 
+global
+maks 
+lokal
+min 
+lokal
+Nilai 
+Ekstrem
+Nilai Ekstrem 
+Global
+Nilai 
+Maksimum 
+Global
+Nilai 
+Minimum 
+Global
+Nilai Ekstrem 
+Lokal
+Nilai 
+Maksimum 
+Lokal
+Nilai 
+Minimum 
+Lokal
+
+--- Halaman 7 ---
+7
+Definisi (Maksimum Global, Minimum Global)
+Misalkan fungsi 𝑓 terdefinisi pada daerah asal 𝐷𝑓.
+❑Fungsi 𝑓 mencapai maksimum global (mutlak) di 𝑐∈𝐷𝑓 
+jika
+𝑓𝑐≥𝑓𝑥 untuk setiap 𝑥∈𝐷𝑓.
+Selanjutnya 𝑓(𝑐) disebut nilai maksimum global pada 
+𝐷𝑓.
+❑Fungsi 𝑓 mencapai minimum global (mutlak) di 𝑐∈𝐷𝑓 
+jika
+𝑓𝑐≤𝑓𝑥 untuk setiap 𝑥∈𝐷𝑓.
+Selanjutnya 𝑓(𝑐) disebut nilai minimum global pada 𝐷𝑓.
+❑Nilai maksimum/minimum global 𝑓 disebut nilai ekstrem 
+global 𝑓.
+
+--- Halaman 8 ---
+8
+Definisi (Maksimum Lokal, Minimum Lokal)
+Misalkan fungsi 𝑓 terdefinisi pada daerah asal 𝐷𝑓.
+❑Fungsi 𝑓 mencapai maksimum lokal (relatif) di 𝑐∈𝐷𝑓 jika 
+terdapat interval terbuka (𝑎, 𝑏) yang memuat 𝑐 sehingga 
+𝑓𝑐≥𝑓𝑥 untuk setiap 𝑥∈𝑎, 𝑏∩𝐷𝑓.
+Selanjutnya 𝑓(𝑐) disebut nilai maksimum lokal pada 𝐷𝑓.
+❑Fungsi 𝑓 mencapai minimum lokal (relatif) di 𝑐∈𝐷𝑓 jika 
+terdapat interval terbuka (𝑎, 𝑏) yang memuat 𝑐 sehingga
+𝑓𝑐≤𝑓𝑥 untuk setiap 𝑥∈𝑎, 𝑏∩𝐷𝑓.
+Selanjutnya 𝑓(𝑐) disebut nilai minimum lokal pada 𝐷𝑓.
+❑Nilai maksimum/minimum lokal 𝑓 disebut nilai ekstrem 
+lokal 𝑓.
+
+--- Halaman 9 ---
+9
+maks 
+global
+min 
+global
+maks 
+lokal
+min 
+lokal
+(      )
+(   )
+(       )
+(      )
+min 
+lokal
+[  )
+)
+
+--- Halaman 10 ---
+10
+Ilustrasi 1: Fungsi 𝑓 kontinu pada [𝑎, 𝑏]
+Teorema
+Jika 𝑓 kontinu pada interval tertutup
+𝑎, 𝑏, maka 𝑓 
+mencapai nilai minimum global dan nilai maksimum 
+global pada [𝑎, 𝑏].
+maks 
+global
+maks 
+global
+min 
+global
+maks 
+global
+maks 
+global
+min 
+global
+min 
+global
+
+--- Halaman 11 ---
+11
+Ilustrasi 2: Jika 𝑓tidak kontinu pada [𝑎, 𝑏] , maka nilai ekstrem 
+global tidak selalu ada.
+tidak ada maks 
+global dan min global
+tidak ada maks global
+min 
+global
+ada maks global 
+dan min global
+maks 
+global
+min 
+global
+
+--- Halaman 12 ---
+Bilangan/ 
+titik kritis
+Titik 
+Stasioner
+Titik 
+Singular
+Titik Ujung 
+Selang
+12
+Titik Ujung Selang
+❑Pada interval/selang 𝐼= 𝑎, 𝑏:
+• 𝑎 disebut titik ujung kiri dan 
+𝑏 disebut titik ujung kanan dari 𝐼.
+• 𝑐∈(𝑎, 𝑏) disebut titik-dalam dari 𝐼.
+❑Interval (𝑎, 𝑏] dan [𝑎, 𝑏) hanya 
+memiliki satu titik ujung selang.
+Definisi (Bilangan/Titik Kritis)
+❑Titik-dalam 𝑐 sehingga 𝑓′ 𝑐= 0 disebut titik stasioner.
+❑Titik-dalam 𝑐 sehingga 𝑓′(𝑐) tidak ada disebut titik singular.
+❑Titik 𝑐∈𝐷𝑓 yang termasuk salah satu dari titik ujung selang, 
+titik stasioner, dan titik singular disebut bilangan (titik) kritis 
+fungsi 𝑓.
+
+--- Halaman 13 ---
+Contoh 1
+Untuk fungsi 𝑓 dengan 𝑓𝑥=
+𝑥1 −𝑥, tentukan:
+a) daerah asal fungsi 𝑓,
+b) semua titik/bilangan kritis dari 𝑓 (jika ada).
+13
+
+--- Halaman 14 ---
+❑Untuk memperoleh nilai ekstrem lokal 𝑓(𝑐), terlebih dahulu 
+tentukan bilangan kritis 𝑐karena jika 𝑐bukan bilangan kritis, 
+maka 𝑓(𝑐) bukan nilai ekstrem lokal.
+❑Perhatikan bahwa jika 𝑐 bilangan kritis fungsi 𝑓, belum tentu 
+𝑓(𝑐) merupakan nilai ekstrem lokal.  
+    Ilustrasi:
+𝑥= 0 adalah titik kritis (titik 
+stasioner) dari 𝑓𝑥= 𝑥3, tapi 
+𝑓(0)  bukan nilai ekstrem 
+lokal
+14
+
+--- Halaman 15 ---
+15
+❑Berdasarkan definisi bilangan kritis, ekstrem lokal hanya 
+terjadi pada titik ujung selang, titik stasioner, atau titik 
+singular.
+
+--- Halaman 16 ---
+Menentukan 
+Ekstrem Global: 
+Metode Selang 
+Tutup
+Misalkan fungsi 𝑓 kontinu pada selang 
+tutup [𝑎, 𝑏].
+Nilai maksimum/minimum global fungsi 
+𝑓 dapat ditentukan dengan cara:
+1) tetapkan bilangan-bilangan kritis
+(titik ujung, titik stasioner, titik singular)
+𝑓pada [𝑎, 𝑏],
+2) evaluasi 𝑓pada setiap bilangan 
+kritis. 
+Nilai terbesar merupakan nilai 
+maksimum global, nilai terkecil 
+merupakan nilai minimum global 
+fungsi 𝑓. 
+16
+
+--- Halaman 17 ---
+17
+Contoh 2
+Tentukan nilai maksimum mutlak dan minimum mutlak fungsi  
+𝑓𝑥= 𝑥3 −3𝑥+ 1 
+pada selang [0,3].
+
+--- Halaman 18 ---
+Teorema Nilai Rataan 
+untuk Turunan
+
+--- Halaman 19 ---
+Teorema Nilai Rataan
+Misalkan fungsi 𝑓 memenuhi hipotesis berikut:
+  i)  kontinu pada interval tertutup [𝑎, 𝑏], 
+  ii) terturunkan pada interval terbuka (𝑎, 𝑏),
+  maka ada sedikitnya satu bilangan 𝑐∈(𝑎, 𝑏) sehingga
+𝑓′ 𝑐= 𝑓𝑏−𝑓(𝑎)
+𝑏−𝑎
+.
+Teorema Nilai 
+Rataan ini untuk 
+turunan fungsi. 
+Nanti ada Teorema 
+Nilai Rataan untuk 
+integral fungsi.
+
+--- Halaman 20 ---
+20
+Contoh 3
+Periksa apakah 𝑓𝑥= 𝑥3 + 𝑥+ 1 memenuhi syarat Teorema 
+Nilai Rataan (TNR) pada selang [0, 2].  Jika ya, tentukan nilai 𝑐
+yang dijamin oleh TNR.
+
+--- Halaman 21 ---
+Turunan Pertama dan 
+Kemonotonan Fungsi
+
+--- Halaman 22 ---
+22
+Definisi (Fungsi Naik, Fungsi Turun)
+Andaikan fungsi 𝑓 terdefinisi pada interval 𝐼 (terbuka, tertutup, 
+atau tak satupun).
+❑𝑓 naik pada 𝐼 jika untuk setiap pasang bilangan 𝑥1 dan 𝑥2 di 𝐼,
+      𝑥1 < 𝑥2 ⇒𝑓𝑥1 < 𝑓𝑥2 , 
+❑𝑓 turun pada 𝐼 jika untuk setiap pasang bilangan 𝑥1 dan 𝑥2 di 𝐼,
+      𝑥1 < 𝑥2 ⇒𝑓𝑥1 > 𝑓𝑥2 . 
+❑ 𝑓 monoton pada 𝐼 jika 𝑓 naik ataukah turun pada 𝐼.
+𝑓𝑥=
+𝑥 monoton naik 
+pada [0, ∞)
+𝑓𝑥= −𝑥3 monoton 
+turun pada [−1,1]
+𝑦= 𝑓𝑥= −𝑥3
+−1 
+1
+
+--- Halaman 23 ---
+23
+Contoh 4
+Jika  𝑓𝑥= 2𝑥3 −3𝑥2 −12𝑥+ 7, tentukan selang di mana 
+fungsi 𝑓 naik dan selang di mana fungsi 𝑓 turun.
+
+--- Halaman 24 ---
+Contoh Penerapan TNR: Kemonotonan Fungsi
+24
+Jadi fungsi 𝑓 naik pada selang 𝐼.
+𝑥1
+𝑥2
+𝑦= 𝑓(𝑥)
+Diketahui 𝑓 fungsi kontinu pada 
+selang 𝐼 dan 𝑓′ 𝑥> 0 pada setiap 
+titik-dalam 𝐼. Akan ditunjukkan bahwa 
+𝑓 merupakan fungsi naik pada 𝐼.
+Menurut TNR yang diterapkan untuk 
+fungsi 𝑓 pada selang [𝑥1, 𝑥2], terdapat 
+𝑐 dalam selang (𝑥1, 𝑥2) sehingga 
+𝑓′ 𝑐= 𝑓𝑥2 −𝑓(𝑥1)
+𝑥2 −𝑥1
+𝑓𝑥2 −𝑓𝑥1 = 𝑓′ 𝑐
+𝑥2 −𝑥1
+Karena 𝑓′ 𝑐> 0 dan 𝑥2 −𝑥1 > 0, 
+maka 𝑓𝑥2 −𝑓𝑥1 > 0.
+Ini berarti, 𝑓𝑥1 < 𝑓(𝑥2) bila 𝑥1 < 𝑥2.
+
+--- Halaman 25 ---
+Uji Turunan 
+dan 
+Ekstrem Lokal
+
+--- Halaman 26 ---
+Uji Turunan I 
+Bagi Ekstrem 
+Lokal
+26
+
+--- Halaman 27 ---
+27
+Contoh 5
+Gunakan Uji Turunan I untuk menentukan ekstrem lokal 
+fungsi 𝑓 dengan
+𝑓 (𝑥) = 𝑥
+1
+3 (𝑥 − 4)
+
+--- Halaman 28 ---
+Uji Turunan II 
+Bagi Ekstrem 
+Lokal
+28
+
+--- Halaman 29 ---
+29
+Contoh 6
+Gunakan Uji Turunan II untuk menentukan ekstrem lokal 
+fungsi 𝑓 dengan
+𝑓𝑥= 1
+3 𝑥3 −𝑥2 −3𝑥+ 4.
+Catatan
+Uji Turunan II kadang-kadang tidak dapat digunakan, seperti 
+untuk menentukan nilai ekstrem lokal fungsi  𝑓𝑥= 𝑥4 dan 
+𝑓𝑥= 𝑥3 (karena 𝑓′′ 𝑐= 0). 
+→ Gunakan Uji Turunan I
+-4
+-2
+0
+2
+4
+200
+400
+600
+x
+y
+-4
+-2
+2
+4
+-100
+100
+x
+y
+
+--- Halaman 30 ---
+Uji Konsep
+• Apakah nilai ekstrem global dan nilai ekstrem 
+lokal suatu fungsi itu?
+• Apakah yang dimaksud dengan bilangan/titik 
+kritis suatu fungsi?
+• Apakah syarat yang harus dipenuhi agar suatu 
+fungsi memiliki maksimum dan minimum global?
+• Bagaimana cara menentukan nilai ekstrem 
+global suatu fungsi?
+• Bagaimana cara menentukan nilai ekstrem lokal 
+suatu fungsi?
+• Deskripsikan Teorema Nilai Rataan untuk turunan.
+
+--- Halaman 31 ---
+Selamat Belajar
+
+

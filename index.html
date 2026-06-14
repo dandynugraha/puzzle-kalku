@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Kalkulus Puzzle - MAT2112</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── HALAMAN 1: LANDING ── -->
+<div id="page-landing" class="page">
+  <p class="landing-tagline">
+    Rumus itu bukan musuh. Dia cuma temen yang belum kamu kenal.
+  </p>
+  <button id="btn-start" class="btn btn-primary">Mulai</button>
+</div>
+
+<!-- ── HALAMAN 2: VIBES SELECTION ── -->
+<div id="page-vibes" class="page">
+  <div class="container">
+    <h1 class="page-title">vibes</h1>
+    <div class="vibes-grid">
+      <button class="btn btn-vibes" data-vibe="none">
+        <span class="vibe-name">tanpa musik</span>
+        <span class="vibe-desc">fokus penuh</span>
+      </button>
+      <button class="btn btn-vibes" data-vibe="lofi">
+        <span class="vibe-name">lo-fi</span>
+        <span class="vibe-desc">gustixa</span>
+      </button>
+      <button class="btn btn-vibes" data-vibe="oldsong">
+        <span class="vibe-name">old song</span>
+        <span class="vibe-desc">michael learns to rock</span>
+      </button>
+      <button class="btn btn-vibes" data-vibe="peterpan">
+        <span class="vibe-name">peterpan</span>
+        <span class="vibe-desc">mungkin nanti</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ── HALAMAN 2.5: MOTIVASI ── -->
+<div id="page-motivasi" class="page">
+  <div class="container">
+    <div class="motivasi-text">
+      <p>Kalkulus itu bukan tentang hafalan rumus tanpa makna.</p>
+      <p>Di sini kamu akan <em>menyusun</em> rumusnya sendiri — pelan-pelan, satu potongan per satu potongan. Dan di setiap langkah, kamu bakal lebih ngerti kenapa rumus itu ada.</p>
+      <p>Pilih week-mu, tekan ayo belajar, dan mulai.</p>
+    </div>
+
+    <div class="week-selector">
+      <label>Pilih Week</label>
+      <div id="week-tabs" class="week-tabs"></div>
+    </div>
+
+    <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+      <button id="btn-belajar" class="btn btn-primary">Ayo Belajar</button>
+      <button id="btn-reset" class="btn btn-ghost" style="font-size:0.82rem; padding:10px 16px;">Reset Progress</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── HALAMAN 3: SUMMARY ── -->
+<div id="page-summary" class="page">
+  <div class="container">
+    <div class="week-header">
+      <div class="week-label" id="summary-week-label">Week 9</div>
+      <div class="week-title" id="summary-week-title"></div>
+    </div>
+
+    <div id="summary-content" class="summary-content"></div>
+
+    <div class="page-nav">
+      <button id="btn-to-puzzle" class="btn btn-primary">Lanjut ke Rumus</button>
+      <button id="btn-summary-back" class="btn btn-ghost">Kembali</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── HALAMAN 4: PUZZLE ── -->
+<div id="page-puzzle" class="page">
+  <div class="container">
+    <div class="puzzle-header">
+      <div>
+        <div class="formula-name" id="formula-name"></div>
+        <div class="formula-label" id="formula-label"></div>
+      </div>
+      <div class="puzzle-progress" id="puzzle-progress"></div>
+    </div>
+
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progress-bar-fill" style="width:0%"></div>
+    </div>
+
+    <!-- Drop zone -->
+    <div id="drop-zone" class="drop-zone" role="region" aria-label="Area susun rumus">
+      <span class="drop-zone-placeholder">klik potongan di bawah untuk menyusun rumus...</span>
+    </div>
+
+    <!-- Pieces pool -->
+    <div class="pieces-label">Potongan Rumus</div>
+    <div id="pieces-pool" class="pieces-pool" role="group" aria-label="Potongan rumus tersedia"></div>
+
+    <!-- Feedback -->
+    <div id="feedback" class="feedback"></div>
+
+    <!-- Hint -->
+    <div id="hint-box" class="hint-box"></div>
+
+    <!-- Buttons -->
+    <div style="display:flex; gap:10px; flex-wrap:wrap;">
+      <button id="btn-check" class="btn btn-primary">Cek Jawaban</button>
+      <button id="btn-next-formula" class="btn btn-primary" style="display:none;">Rumus Berikutnya</button>
+    </div>
+
+    <!-- After solve -->
+    <div id="after-solve" class="after-solve">
+      <div class="divider"></div>
+      <div class="pieces-label">Rumus Lengkap</div>
+      <div id="formula-display" class="formula-display"></div>
+
+      <div class="example-box">
+        <div class="example-label">Contoh Soal</div>
+        <div id="example-question" class="example-question"></div>
+        <button id="btn-toggle-solution" class="btn btn-ghost" style="font-size:0.85rem; padding:8px 14px;">Lihat Jawaban</button>
+        <div id="example-solution" class="example-solution"></div>
+      </div>
+    </div>
+
+    <div class="puzzle-nav">
+      <button id="btn-puzzle-back" class="btn btn-ghost">Kembali ke Summary</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── HALAMAN SELESAI ── -->
+<div id="page-complete" class="page">
+  <div style="text-align:center; padding: var(--pad);">
+    <div class="complete-title" id="complete-title">Week selesai!</div>
+    <div class="complete-subtitle" id="complete-subtitle"></div>
+    <div class="complete-nav">
+      <button id="btn-next-week" class="btn btn-primary">Lanjut ke Week Berikutnya</button>
+      <button id="btn-back-to-menu" class="btn btn-ghost">Kembali ke Menu Week</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── MUSIC PLAYER ── -->
+<div id="music-player">
+  <span class="music-track-name" id="music-track-name"></span>
+  <button id="btn-music-toggle">pause</button>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
